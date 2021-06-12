@@ -39,7 +39,6 @@ public class CharacterControls : MonoBehaviour
         }
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
             GameOver.SetActive(true);
         }
 

@@ -7,7 +7,7 @@ public class RestartGame : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene("J_sandbox");
+        SceneManager.LoadScene("GameplayScene");
         Time.timeScale = 1;
     }
 }
