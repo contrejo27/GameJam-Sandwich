@@ -9,34 +9,36 @@ public class FlyingEnemy : MonoBehaviour
     public float bulletSpeed = 20;
     bool movingUp;
     public float enemySpeed = 5f;
+    Vector3 startPosition;
+    public GameObject Explosion;
     // Start is called before the first frame update
     void Start()
     {
-        
+        startPosition = transform.position;
         StartCoroutine("ShootAtRandomSeconds");
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (transform.position.y < 4)
+        if (transform.position.y < startPosition.y + .5)
         {
 
-            movingUp = true;
+            movingUp = false;
         }
      
-        if (transform.position.y > 2)
+        if (transform.position.y > startPosition.y + .5)
         {
-            movingUp = false;
+            movingUp = true;
         }
 
         if (movingUp == true)
         {
-            GetComponent<Rigidbody>().AddForce(Vector3.up * enemySpeed);
+            GetComponent<Rigidbody>().AddForce(Vector3.down * enemySpeed);
         }
         else
         {
-            GetComponent<Rigidbody>().AddForce(Vector3.down * enemySpeed);
+            GetComponent<Rigidbody>().AddForce(Vector3.up * enemySpeed);
         }
     }
     IEnumerator ShootAtRandomSeconds()
@@ -51,6 +53,7 @@ public class FlyingEnemy : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             Destroy(gameObject);
+            Instantiate(Explosion, transform.position, Quaternion.identity);
         }
     }
 }

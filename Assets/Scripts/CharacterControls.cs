@@ -40,13 +40,10 @@ public class CharacterControls : MonoBehaviour
                 jumpsLeft--;
             }
         }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            TakeDamage(10);
-        }
         if (currentHealth <= 0)
         {
             GameOver.SetActive(true);
+            Time.timeScale = 0;
         }
 
 
@@ -77,19 +74,18 @@ public class CharacterControls : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+        print(isGrounded);
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
             jumpsLeft++;
         }
 
-        if (collision.gameObject.tag == "EnemyBullet")
+        if (collision.gameObject.tag == "Enemy")
         {
             print("taking damage");
-            TakeDamage(20);
-            Destroy(collision.gameObject);
+            TakeDamage(4);
         }
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -97,6 +93,12 @@ public class CharacterControls : MonoBehaviour
         if (other.gameObject.CompareTag("Item"))
         {
             GameObject.FindObjectOfType<WeaponBehavior>().ammo += 10;
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("EnemyBullet"))
+        {
+            print("taking damage");
+            TakeDamage(8);
             Destroy(other.gameObject);
         }
     }
