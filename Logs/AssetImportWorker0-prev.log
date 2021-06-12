@@ -15,11 +15,11 @@ D:/Unity/projects/GameJam-Sandwich
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54133
+54625
 Successfully changed project path to: D:/Unity/projects/GameJam-Sandwich
 D:/Unity/projects/GameJam-Sandwich
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001846 seconds.
+Registered in 0.001775 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.040 seconds
+- Completed reload, in  2.535 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003201 seconds.
+Registered in 0.003234 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -62,78 +62,127 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
+- Completed reload, in  0.932 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.7 MB.
+System memory in use before: 65.8 MB.
 System memory in use after: 65.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1821.
-Total: 3.751200 ms (FindLiveObjects: 1.291100 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.348300 ms  DeleteObjects: 0.059500 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1822.
+Total: 1.858500 ms (FindLiveObjects: 0.112500 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.649100 ms  DeleteObjects: 0.062700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/CharacterControls.cs
-  artifactKey: Guid(70ba6369b64f6d649859d2924ef6f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CharacterControls.cs using Guid(70ba6369b64f6d649859d2924ef6f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa6891ed38329a510ae5c620de986f4') in 0.129942 seconds
-  Import took 0.133190 seconds .
+  path: Assets/ArtAssets/Health & UI
+  artifactKey: Guid(3103c10c788439e4fbef14a8cc9ea800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI using Guid(3103c10c788439e4fbef14a8cc9ea800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a4f150a8d9ec2839d33dffbad35f90') in 0.006947 seconds
+  Import took 0.008944 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 129.782498 seconds.
-  path: Assets/CharacterControls.cs
-  artifactKey: Guid(70ba6369b64f6d649859d2924ef6f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CharacterControls.cs using Guid(70ba6369b64f6d649859d2924ef6f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b27aa8d27aa963c8e5bf25410c78d80') in 0.004351 seconds
-  Import took 0.009062 seconds .
+  Time since last request: 0.411562 seconds.
+  path: Assets/ArtAssets/Health & UI/Bar.png
+  artifactKey: Guid(4301616a71719a04fad21b5aa9fd1e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Bar.png using Guid(4301616a71719a04fad21b5aa9fd1e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973c0205362b29cc7e44ae7e017b8a60') in 0.065481 seconds
+  Import took 0.067414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/CharacterControls.cs
-  artifactKey: Guid(70ba6369b64f6d649859d2924ef6f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CharacterControls.cs using Guid(70ba6369b64f6d649859d2924ef6f4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b27aa8d27aa963c8e5bf25410c78d80') in 0.002293 seconds
-  Import took 0.004870 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003488 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.5 MB.
-System memory in use after: 65.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1824.
-Total: 1.717400 ms (FindLiveObjects: 0.110100 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.556400 ms  DeleteObjects: 0.015900 ms)
+  Time since last request: 0.000172 seconds.
+  path: Assets/ArtAssets/Health & UI/Heart.png
+  artifactKey: Guid(7e29c27cdc15eda4e9464b6ac8084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Heart.png using Guid(7e29c27cdc15eda4e9464b6ac8084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf2ca0190d477519eba55942643857d') in 0.012125 seconds
+  Import took 0.014263 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.108038 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.016320 seconds
-  Import took 0.018462 seconds .
+  Time since last request: 57.162454 seconds.
+  path: Assets/ArtAssets/Health & UI/Bar.png
+  artifactKey: Guid(4301616a71719a04fad21b5aa9fd1e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Bar.png using Guid(4301616a71719a04fad21b5aa9fd1e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59036cd267f469063b9c198c83fe99d') in 0.010779 seconds
+  Import took 0.012944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.408880 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005424 seconds
+  Import took 0.007503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.985159 seconds.
+  path: Assets/ArtAssets/Health & UI/Heart 1.png
+  artifactKey: Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Heart 1.png using Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f1fda6872add5ea134235e17c42c82') in 0.011651 seconds
+  Import took 0.013688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/ArtAssets/Health & UI/Bar 1.png
+  artifactKey: Guid(e571ae68d241b8d43a61c063f678c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Bar 1.png using Guid(e571ae68d241b8d43a61c063f678c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec3d7bdee2425da8ded6b301368c293') in 0.010189 seconds
+  Import took 0.012354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/ArtAssets/Health & UI/Heart 1.png
+  artifactKey: Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Heart 1.png using Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f1fda6872add5ea134235e17c42c82') in 0.005350 seconds
+  Import took 0.007313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.775879 seconds.
+  path: Assets/ArtAssets/Health & UI/Bar 1.png
+  artifactKey: Guid(e571ae68d241b8d43a61c063f678c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Bar 1.png using Guid(e571ae68d241b8d43a61c063f678c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d2eefbc8904e4af59b4c8c9ab91b32') in 0.061714 seconds
+  Import took 0.063756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.130063 seconds.
+  path: Assets/ArtAssets/Health & UI/Heart 1.png
+  artifactKey: Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Heart 1.png using Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ca2f34700d90e55a751f10b932fc5a') in 0.010787 seconds
+  Import took 0.012955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001831 seconds.
+  path: Assets/ArtAssets/Health & UI/Heart 1.png
+  artifactKey: Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Heart 1.png using Guid(606ba561cffa4424ba93de31c8df0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ca2f34700d90e55a751f10b932fc5a') in 0.013127 seconds
+  Import took 0.015261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.812429 seconds.
+  path: Assets/ArtAssets/Health & UI/Bar.png
+  artifactKey: Guid(4301616a71719a04fad21b5aa9fd1e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Bar.png using Guid(4301616a71719a04fad21b5aa9fd1e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e85be705e02d424c78c2f6159f64124') in 0.026608 seconds
+  Import took 0.029086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.804510 seconds.
+  path: Assets/ArtAssets/Health & UI/Heart.png
+  artifactKey: Guid(7e29c27cdc15eda4e9464b6ac8084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtAssets/Health & UI/Heart.png using Guid(7e29c27cdc15eda4e9464b6ac8084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd539461412564f8ace9a9d341e9f323') in 0.011182 seconds
+  Import took 0.013118 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003659 seconds.
+Registered in 0.003191 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -142,159 +191,978 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1827.
-Total: 1.530900 ms (FindLiveObjects: 0.103900 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.380700 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003318 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.817 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1830.
-Total: 1.503100 ms (FindLiveObjects: 0.114200 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.336800 ms  DeleteObjects: 0.014100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003682 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1833.
-Total: 1.424100 ms (FindLiveObjects: 0.101100 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.278700 ms  DeleteObjects: 0.011900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004271 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 1.573100 ms (FindLiveObjects: 0.126100 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.394700 ms  DeleteObjects: 0.013700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003361 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1839.
-Total: 1.664700 ms (FindLiveObjects: 0.122100 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.492500 ms  DeleteObjects: 0.015600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003357 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.843 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 1.611900 ms (FindLiveObjects: 0.109400 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.451100 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004118 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.927 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.9 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 1.967500 ms (FindLiveObjects: 0.121100 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.795200 ms  DeleteObjects: 0.014900 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1844.
+Total: 1.712300 ms (FindLiveObjects: 0.110600 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.551100 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 696.972139 seconds.
+  path: Assets/HealthBar.cs
+  artifactKey: Guid(1fc339c2c1c6ec44fa15dfdce313d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthBar.cs using Guid(1fc339c2c1c6ec44fa15dfdce313d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6411408f0500835cab957777e8a9df8c') in 0.015233 seconds
+  Import took 0.017487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.636396 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials
+  artifactKey: Guid(acd3694872583004a94a8a900faf4ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials using Guid(acd3694872583004a94a8a900faf4ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38adaa90a30519f38073596bca0f19fd') in 0.006504 seconds
+  Import took 0.008834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.423520 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Colour Map 01 Glow.psd
+  artifactKey: Guid(ad2b95d3d172e164b9780f904f2c331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Colour Map 01 Glow.psd using Guid(ad2b95d3d172e164b9780f904f2c331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a4e2036cad374289164c4d0e3b8202') in 0.033109 seconds
+  Import took 0.035044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C002B.psd
+  artifactKey: Guid(9d34f1b4132fa704a9fc2a7028fc8f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C002B.psd using Guid(9d34f1b4132fa704a9fc2a7028fc8f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b061584a764de5cc05c2469ac250efaf') in 0.010660 seconds
+  Import took 0.013101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C003B.psd
+  artifactKey: Guid(2d0894eb4b6bd3e40918422c2ec6bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C003B.psd using Guid(2d0894eb4b6bd3e40918422c2ec6bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa513ee4d15beac5c08655afe2850574') in 0.015135 seconds
+  Import took 0.017151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C002C.psd
+  artifactKey: Guid(994197b9e6d95274fbbae5b7de1939d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C002C.psd using Guid(994197b9e6d95274fbbae5b7de1939d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e80ec503db81bcc5b0486f06df15536') in 0.014388 seconds
+  Import took 0.016630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C002A.psd
+  artifactKey: Guid(c0885208e00ceff43a74aad2cf095318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C002A.psd using Guid(c0885208e00ceff43a74aad2cf095318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff95dba092122f282fc986df9fbc9cd2') in 0.011636 seconds
+  Import took 0.014139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C003C.psd
+  artifactKey: Guid(15a71bc345bee0945a280ab4202a3b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C003C.psd using Guid(15a71bc345bee0945a280ab4202a3b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a864a8ec8543d333ad52e415e4c1cbbb') in 0.013624 seconds
+  Import took 0.015908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C004C.psd
+  artifactKey: Guid(126abcd6ae3e4974891579486ec6b0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C004C.psd using Guid(126abcd6ae3e4974891579486ec6b0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99658cf95c9d8dab33f221e89456e347') in 0.013139 seconds
+  Import took 0.015151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male Glow.psd
+  artifactKey: Guid(5f74abad9f3e74e458de34dc806442c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male Glow.psd using Guid(5f74abad9f3e74e458de34dc806442c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ff64a2f10ebee754905ebc8378ff4f') in 0.010095 seconds
+  Import took 0.012429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C005B.psd
+  artifactKey: Guid(c2dc269ae78f53444ad1fe7c0eaaf626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C005B.psd using Guid(c2dc269ae78f53444ad1fe7c0eaaf626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ef0a477fb5c7932980ce4f26a2de2d') in 0.008950 seconds
+  Import took 0.010955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C002A.psd
+  artifactKey: Guid(8e593a454fe7ddb459f99b15e7d97712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C002A.psd using Guid(8e593a454fe7ddb459f99b15e7d97712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e61dc4cd69f8315c214aff5ee663ae') in 0.009207 seconds
+  Import took 0.011234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C005C.psd
+  artifactKey: Guid(7dfe4017a3bc8384d8e9a3d14db08b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C005C.psd using Guid(7dfe4017a3bc8384d8e9a3d14db08b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd618eea1031215ac5f38c2644796f93f') in 0.008439 seconds
+  Import took 0.010396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Face DIY.psd
+  artifactKey: Guid(88ea1290e0f0adb408bf600a51fa71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Face DIY.psd using Guid(88ea1290e0f0adb408bf600a51fa71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d630e8e7d4dbf3c13dfea83930086f') in 0.013682 seconds
+  Import took 0.015692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C004A.psd
+  artifactKey: Guid(d1058d6d9d4959a46ba2f8f1b63f8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C004A.psd using Guid(d1058d6d9d4959a46ba2f8f1b63f8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab368b6ad08a8ad6b6076c4f7051903') in 0.008303 seconds
+  Import took 0.010329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C003A.psd
+  artifactKey: Guid(79dc8df9c0214dc45889027b98e06743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C003A.psd using Guid(79dc8df9c0214dc45889027b98e06743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de15e4e03056f27712ab9e21b8b729bf') in 0.010884 seconds
+  Import took 0.012803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C003B.psd
+  artifactKey: Guid(43713f54f987e2d44bddbb0a469b3723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C003B.psd using Guid(43713f54f987e2d44bddbb0a469b3723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef0bbc3772212732c8ab4fd75934354') in 0.011623 seconds
+  Import took 0.013678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C001A.psd
+  artifactKey: Guid(40e4c8bcdfcd8ad47949a3f29b6c6330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C001A.psd using Guid(40e4c8bcdfcd8ad47949a3f29b6c6330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c839605fb0a39f8cae0f0826e6743cea') in 0.008361 seconds
+  Import took 0.010300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C001C.psd
+  artifactKey: Guid(b22846623ba130d418b9994f9dcddcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C001C.psd using Guid(b22846623ba130d418b9994f9dcddcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc20b15264c1f68de3c42d6c7909dd0') in 0.009246 seconds
+  Import took 0.011119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C002A.psd
+  artifactKey: Guid(d77c100c9944134408ada001d0c8c3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C002A.psd using Guid(d77c100c9944134408ada001d0c8c3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0563d3b6a7a8b55b1af753cea53e668c') in 0.011107 seconds
+  Import took 0.013187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C001A.psd
+  artifactKey: Guid(f787c3b5067b45b4d9647b39c2a2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C001A.psd using Guid(f787c3b5067b45b4d9647b39c2a2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaeadab19bb651c001ed6ee8c76aae0') in 0.012648 seconds
+  Import took 0.015011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C003A.psd
+  artifactKey: Guid(79a4b16e3e142cf4b9268c6cf88c7f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C003A.psd using Guid(79a4b16e3e142cf4b9268c6cf88c7f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ee50d626399e1b834a404ec162781') in 0.012840 seconds
+  Import took 0.015015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/FX Smoke.psd
+  artifactKey: Guid(ff90f65bc3703d341b8e202ad4387003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/FX Smoke.psd using Guid(ff90f65bc3703d341b8e202ad4387003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881bd60f76582f746de7cc78900ee39d') in 0.008958 seconds
+  Import took 0.010886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C001B.psd
+  artifactKey: Guid(155dd5c75a0eeb142b0929448e8f9b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C001B.psd using Guid(155dd5c75a0eeb142b0929448e8f9b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51454ae1decc61fe4cde7d7a259c863') in 0.007465 seconds
+  Import took 0.009414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C002B.psd
+  artifactKey: Guid(40d3903ad4f068e469daf469c3ec3cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C002B.psd using Guid(40d3903ad4f068e469daf469c3ec3cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d937beb65e10e15209fa6fbaefb4896') in 0.008138 seconds
+  Import took 0.010077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C001C.psd
+  artifactKey: Guid(e0549e8603bc0094e86b6ccf34c20f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C001C.psd using Guid(e0549e8603bc0094e86b6ccf34c20f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd473fa28b9d29da41eb7322cd2560d2') in 0.012515 seconds
+  Import took 0.014776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Helmet 01 Black.psd
+  artifactKey: Guid(ca2c0e6f82e6a814b942303f1a51dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Helmet 01 Black.psd using Guid(ca2c0e6f82e6a814b942303f1a51dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4d72a74814c53f2e69e9034f2788c2') in 0.008977 seconds
+  Import took 0.010796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C001A.psd
+  artifactKey: Guid(4cff0ade034b75f4bb75f03740cef002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C001A.psd using Guid(4cff0ade034b75f4bb75f03740cef002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960aee314694b7dd28c2d6d4ebc7094c') in 0.008942 seconds
+  Import took 0.011158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C002C.psd
+  artifactKey: Guid(cd389947b234019499c13f3f5eabae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C002C.psd using Guid(cd389947b234019499c13f3f5eabae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4feb09cb1526e54d476aaf166f461e') in 0.007979 seconds
+  Import took 0.010006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C003C.psd
+  artifactKey: Guid(befe66e6cc3c85248adfb032bd7298f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C003C.psd using Guid(befe66e6cc3c85248adfb032bd7298f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bed472a4a85b4ce8456a6a473aeb08') in 0.008466 seconds
+  Import took 0.010776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C002C.psd
+  artifactKey: Guid(76ffe483c96fa5b429aa4fa6b0beea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C002C.psd using Guid(76ffe483c96fa5b429aa4fa6b0beea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace905eb01469706380749df0457360e') in 0.008629 seconds
+  Import took 0.010578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Helmet 01 Red.psd
+  artifactKey: Guid(dd3df78bf69f65f49a6a559fa7465fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Helmet 01 Red.psd using Guid(dd3df78bf69f65f49a6a559fa7465fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1883921c8fa14a69f1104dbc56618f00') in 0.009981 seconds
+  Import took 0.011888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C003A.psd
+  artifactKey: Guid(1fc9f7fc6991755419dbbd75601d4a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C003A.psd using Guid(1fc9f7fc6991755419dbbd75601d4a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c213fa430c7b8280a455ce32a5e8ded') in 0.008088 seconds
+  Import took 0.010192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Colour Map 01.psd
+  artifactKey: Guid(705952274ef94e1438a436f708776c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Colour Map 01.psd using Guid(705952274ef94e1438a436f708776c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b373caae30107de98a7ecad7f81837') in 0.009536 seconds
+  Import took 0.011463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001A.psd
+  artifactKey: Guid(4cb6bdb570f31ad4cb9e9d6894629874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001A.psd using Guid(4cb6bdb570f31ad4cb9e9d6894629874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a07b30c8befa6b474027fb2681f04e') in 0.007752 seconds
+  Import took 0.009696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001C.psd
+  artifactKey: Guid(1617c500034d5a84b969e6d8b85b6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001C.psd using Guid(1617c500034d5a84b969e6d8b85b6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad393cce430e7adc22a00a0869de5367') in 0.008129 seconds
+  Import took 0.010104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C004B.psd
+  artifactKey: Guid(919c9ff7c192e694b9a201d135192fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C004B.psd using Guid(919c9ff7c192e694b9a201d135192fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2a3067a9b83839794ebe9318dd5cef') in 0.008733 seconds
+  Import took 0.010611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C005A.psd
+  artifactKey: Guid(d5dd3127adbbf3549a65d5b584285c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C005A.psd using Guid(d5dd3127adbbf3549a65d5b584285c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a9daa5c9a35c145d65691ec74e1557') in 0.009263 seconds
+  Import took 0.011106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C002B.psd
+  artifactKey: Guid(ccdb0ac78a39cdd4181bc48d9e3af054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C002B.psd using Guid(ccdb0ac78a39cdd4181bc48d9e3af054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a367098cc27b6b4c26dc6a7506937c') in 0.007981 seconds
+  Import took 0.009944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C003B.psd
+  artifactKey: Guid(fcfff67065b181243b9529dbb0ef5710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C003B.psd using Guid(fcfff67065b181243b9529dbb0ef5710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935130d5225897902be8fe01218956a6') in 0.013711 seconds
+  Import took 0.015764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C003C.psd
+  artifactKey: Guid(d391f934a1eba37499a6db4efc2548b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C003C.psd using Guid(d391f934a1eba37499a6db4efc2548b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4769abc74873f838f1fc5bd879f45a21') in 0.008789 seconds
+  Import took 0.010779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C002B.psd
+  artifactKey: Guid(9fde71962a358b54ebcf3832b5cb40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C002B.psd using Guid(9fde71962a358b54ebcf3832b5cb40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7830cb67ef83f5930e94d45b483f36') in 0.008117 seconds
+  Import took 0.010100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Helmet 01 Orange.psd
+  artifactKey: Guid(acd99d59b56613f438d861ac94024fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Helmet 01 Orange.psd using Guid(acd99d59b56613f438d861ac94024fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8007b47d84f2c40d841bd71601829a67') in 0.009187 seconds
+  Import took 0.011099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C001B.psd
+  artifactKey: Guid(b24f2769e98fe1341974ae6419ed9fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C001B.psd using Guid(b24f2769e98fe1341974ae6419ed9fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c82e5d1f404636942e32483a695956') in 0.008159 seconds
+  Import took 0.010218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C004A.psd
+  artifactKey: Guid(67061d0c75124dc41951376d96394089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C004A.psd using Guid(67061d0c75124dc41951376d96394089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29da59ea4dee5f144d83d3b746accb9') in 0.008573 seconds
+  Import took 0.010460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C005A.psd
+  artifactKey: Guid(440a191cd081b5b44a478a6b7706c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C005A.psd using Guid(440a191cd081b5b44a478a6b7706c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e6e1a34c0a6f10829201a84fb9cda3') in 0.009638 seconds
+  Import took 0.011760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C004C.psd
+  artifactKey: Guid(46b69b1800f574d4e8e0537742bc39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C004C.psd using Guid(46b69b1800f574d4e8e0537742bc39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849e1caa69d7e0356d6dc805be319ba6') in 0.007941 seconds
+  Import took 0.009814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C001B.psd
+  artifactKey: Guid(6f12641267df6d7468528a8e54adbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C001B.psd using Guid(6f12641267df6d7468528a8e54adbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b9b30d37f475a23af3007f9ada58cc') in 0.008276 seconds
+  Import took 0.010343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C005B.psd
+  artifactKey: Guid(f45b9c5c14cf0004aa54a0fc6eee5a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C005B.psd using Guid(f45b9c5c14cf0004aa54a0fc6eee5a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b803d94ad38d489bde80398778be2a') in 0.009043 seconds
+  Import took 0.011347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C003B.psd
+  artifactKey: Guid(9b8a4e162ed33c24fa790c19db736d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C003B.psd using Guid(9b8a4e162ed33c24fa790c19db736d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da5a16b73b9cc91c7eab084ad8cd272') in 0.008979 seconds
+  Import took 0.010991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C001C.psd
+  artifactKey: Guid(b359892587ae27146ba2b5be1e274daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C001C.psd using Guid(b359892587ae27146ba2b5be1e274daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e519f2c56415e7d7d9262114c293b7') in 0.009637 seconds
+  Import took 0.011614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001B.psd
+  artifactKey: Guid(ee4338c7b18e5024caf44e3163d14039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001B.psd using Guid(ee4338c7b18e5024caf44e3163d14039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688e087d9d6420244e9b5a6f64ba7ed4') in 0.009234 seconds
+  Import took 0.011477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C003A.psd
+  artifactKey: Guid(8653bef0dadae0d4299fb76e13903fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Bl C003A.psd using Guid(8653bef0dadae0d4299fb76e13903fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd112cc0da6402d49da6f3d167eac30') in 0.007694 seconds
+  Import took 0.009568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C004B.psd
+  artifactKey: Guid(00a7756dd71a0ad41944acf41ca95a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C004B.psd using Guid(00a7756dd71a0ad41944acf41ca95a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08261ee1ddad3493013a6bc846e5c88c') in 0.008356 seconds
+  Import took 0.010291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001B.psd
+  artifactKey: Guid(ee4338c7b18e5024caf44e3163d14039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C001B.psd using Guid(ee4338c7b18e5024caf44e3163d14039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688e087d9d6420244e9b5a6f64ba7ed4') in 0.005208 seconds
+  Import took 0.007209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C002C.psd
+  artifactKey: Guid(3679c94c13d79664f9259f86082391df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C002C.psd using Guid(3679c94c13d79664f9259f86082391df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd42ed89e8bf06e66cccdf3cb10087ad') in 0.009584 seconds
+  Import took 0.011551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C002A.psd
+  artifactKey: Guid(5a476650230dd244491345bcfd7654ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Female01 Wh C002A.psd using Guid(5a476650230dd244491345bcfd7654ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ab8779ba75484fe703711b8911abba') in 0.008287 seconds
+  Import took 0.010208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C003C.psd
+  artifactKey: Guid(d8e5c3a2b6cbcb74197b937ba994a67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Bl C003C.psd using Guid(d8e5c3a2b6cbcb74197b937ba994a67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e578043acb96e351e517e1c97326a1f1') in 0.009177 seconds
+  Import took 0.011212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.047873 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Tutorials/Cube-Character-Tutorial-01.png
+  artifactKey: Guid(4f13fa1e020fe69469db4a76dcba471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Tutorials/Cube-Character-Tutorial-01.png using Guid(4f13fa1e020fe69469db4a76dcba471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e0484c531211b4a7ad21d5534a43d3') in 0.008944 seconds
+  Import took 0.011728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Tutorials/CubeSciFi-Tutorial-03.png
+  artifactKey: Guid(03e1c33c40703e9458baa82a09ae5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Tutorials/CubeSciFi-Tutorial-03.png using Guid(03e1c33c40703e9458baa82a09ae5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab83bab5cf88752353b71e4654bfaea0') in 0.010414 seconds
+  Import took 0.012484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Tutorials/CubeSciFi-Tutorial-04.png
+  artifactKey: Guid(4706050528867544f97c27459f3d32a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Tutorials/CubeSciFi-Tutorial-04.png using Guid(4706050528867544f97c27459f3d32a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7d9d01b63dd02a72b76756b49fc08c') in 0.009209 seconds
+  Import took 0.011284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Tutorials/CubeSciFi-Tutorial-02.png
+  artifactKey: Guid(83595d48068f8e742bf435136aef5241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Tutorials/CubeSciFi-Tutorial-02.png using Guid(83595d48068f8e742bf435136aef5241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1eac24de67ffcc81b7731e1235247f') in 0.012056 seconds
+  Import took 0.013923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.337869 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Post Processing Profiles/Isometric Scenes.asset
+  artifactKey: Guid(afc623187ec8ffc4093b9d644d5bc7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Post Processing Profiles/Isometric Scenes.asset using Guid(afc623187ec8ffc4093b9d644d5bc7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103a5c9395a18ad51a05ab1079a29f9a') in 0.032654 seconds
+  Import took 0.035063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Post Processing Profiles/Perspective Scene.asset
+  artifactKey: Guid(1e2f8ad95c933b646aa1bd3ba4a04698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Post Processing Profiles/Perspective Scene.asset using Guid(1e2f8ad95c933b646aa1bd3ba4a04698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b4434a19c6a66813febfb84451d9ec') in 0.006920 seconds
+  Import took 0.008701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.018051 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C005C.psd
+  artifactKey: Guid(bbbd4b74e53241d48b15d271d6f18c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Male01 Wh C005C.psd using Guid(bbbd4b74e53241d48b15d271d6f18c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0d118589fa1d1630bf75c3b54dc71e') in 0.007413 seconds
+  Import took 0.009409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Purple.psd
+  artifactKey: Guid(d04131b52f5539e438ac52cd3dc1e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Purple.psd using Guid(d04131b52f5539e438ac52cd3dc1e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a77f026cc973e51eaa0701ccd379d47') in 0.009374 seconds
+  Import took 0.011214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Robot 01A.psd
+  artifactKey: Guid(ad5260985b196904cae24c60198f211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Robot 01A.psd using Guid(ad5260985b196904cae24c60198f211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb0e9662b667ba2300f472e8bcaf7f7') in 0.011450 seconds
+  Import took 0.013595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Green Glow.psd
+  artifactKey: Guid(2a857c9fd47b38245a2ca14df596c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Green Glow.psd using Guid(2a857c9fd47b38245a2ca14df596c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a15c76bacce121e059afe30f9ad750') in 0.009593 seconds
+  Import took 0.011679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Blue Glow.psd
+  artifactKey: Guid(609b41c22ef2be34b8047cddb4fe752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Blue Glow.psd using Guid(609b41c22ef2be34b8047cddb4fe752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a5e7836d3ea33cbe9754f5fb8c488b') in 0.011770 seconds
+  Import took 0.013756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Green.psd
+  artifactKey: Guid(03343468b4946f845b9c07a2d0555bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Green.psd using Guid(03343468b4946f845b9c07a2d0555bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2eafcad7a6f093a1469f766a6de1c5') in 0.010847 seconds
+  Import took 0.012825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon Colour Map 01 Glow.psd
+  artifactKey: Guid(9377471559efdaf4f9bc64c1fb5e9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon Colour Map 01 Glow.psd using Guid(9377471559efdaf4f9bc64c1fb5e9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc402976d956f54e8cc22cdc1d2ef62e') in 0.011452 seconds
+  Import took 0.013513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Red.psd
+  artifactKey: Guid(adf8b6c50fb788247bb4652c309d8666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Red.psd using Guid(adf8b6c50fb788247bb4652c309d8666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9bfcfd4015512d7c4d885c9dd10f90') in 0.018391 seconds
+  Import took 0.020305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Red Glow.psd
+  artifactKey: Guid(27773fd48bcd2244784276fd0ed2961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Red Glow.psd using Guid(27773fd48bcd2244784276fd0ed2961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05a8458055289f87c8f80d78769ef87') in 0.009021 seconds
+  Import took 0.010999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Purple Glow.psd
+  artifactKey: Guid(a8755ef9a09ae9f449458d82595c10b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Purple Glow.psd using Guid(a8755ef9a09ae9f449458d82595c10b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0550f0821164c728ee0b7d3e81d068fa') in 0.010551 seconds
+  Import took 0.012452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Yellow.psd
+  artifactKey: Guid(70ccbc58172edc7459c4059255550001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Yellow.psd using Guid(70ccbc58172edc7459c4059255550001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed43f0af8a8d8afd5e56044a9cf3907') in 0.008553 seconds
+  Import took 0.010791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Blue.psd
+  artifactKey: Guid(c96e4b6608356f744927b894e00b870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Blue.psd using Guid(c96e4b6608356f744927b894e00b870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e7e27a09c01d5983d1066faac69e8c') in 0.009480 seconds
+  Import took 0.011392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Yellow Glow.psd
+  artifactKey: Guid(41e54d77a39ad6e4c984ab6ccb75767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Textures/Weapon 01 Yellow Glow.psd using Guid(41e54d77a39ad6e4c984ab6ccb75767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d08f1f32c23798ea26e050dea8cdb4') in 0.009064 seconds
+  Import took 0.011086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.156223 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment
+  artifactKey: Guid(9e9c298c5d756724aa0ae95c9dae9a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment using Guid(9e9c298c5d756724aa0ae95c9dae9a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39e71bfd2c88c2918561b330e3fbb6b') in 0.006072 seconds
+  Import took 0.008066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108178 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Ground 01.prefab
+  artifactKey: Guid(8d0018369ea5a6f419b4923f572c1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Ground 01.prefab using Guid(8d0018369ea5a6f419b4923f572c1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb31b84c0b718218c58208ac8b8e7de0') in 0.034737 seconds
+  Import took 0.036814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 01.prefab
+  artifactKey: Guid(827da15ff88328d40b6e5c3c5618ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 01.prefab using Guid(827da15ff88328d40b6e5c3c5618ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b350a0c37d8944142948c6f4b39b0c25') in 0.012197 seconds
+  Import took 0.014053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 04.prefab
+  artifactKey: Guid(68805649620e8ea4d8257e94dd402ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 04.prefab using Guid(68805649620e8ea4d8257e94dd402ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4223fae3846a0e33c3dfff29b1b8b80') in 0.014383 seconds
+  Import took 0.016378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Hologram 01 Cube 01.prefab
+  artifactKey: Guid(dc20b0c9800cfba4db66ff3554d53bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Hologram 01 Cube 01.prefab using Guid(dc20b0c9800cfba4db66ff3554d53bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2ac75b2b6aed1964fab8c5113bee19') in 0.021322 seconds
+  Import took 0.023554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Portal 02.prefab
+  artifactKey: Guid(823db993b74404843989b85bb15a4d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Portal 02.prefab using Guid(823db993b74404843989b85bb15a4d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db65567d10e3f2c23db42642ada9aebf') in 0.014145 seconds
+  Import took 0.016300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 02.prefab
+  artifactKey: Guid(52e2bd56e4edc9c4d917bd671be53705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 02.prefab using Guid(52e2bd56e4edc9c4d917bd671be53705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8bb269c3437ca55b98a7c99f0d7672') in 0.014656 seconds
+  Import took 0.016854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Lamp 01 Blue.prefab
+  artifactKey: Guid(9f67eab1a3462ed44bfa2b962da9c4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Lamp 01 Blue.prefab using Guid(9f67eab1a3462ed44bfa2b962da9c4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f59b1dc3623375c460c241fda1041f') in 0.011815 seconds
+  Import took 0.013814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Lamp 02 Blue.prefab
+  artifactKey: Guid(b203f620813506642ba3e8ea71a12965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Lamp 02 Blue.prefab using Guid(b203f620813506642ba3e8ea71a12965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9ddf43e74030a66ba5ae67b9d501fe') in 0.013869 seconds
+  Import took 0.015883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 03.prefab
+  artifactKey: Guid(aa8dc88026363614b9811bc0b02d2275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 03.prefab using Guid(aa8dc88026363614b9811bc0b02d2275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e5c2336055a44a07c570d0f4c3148d') in 0.015476 seconds
+  Import took 0.017672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Pillar 01.prefab
+  artifactKey: Guid(1ffa6ac46084fd7408d40d4010755cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Pillar 01.prefab using Guid(1ffa6ac46084fd7408d40d4010755cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a56ef12ffd8acc48152c1c077f9cd3') in 0.011683 seconds
+  Import took 0.013792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Sewer 01.prefab
+  artifactKey: Guid(4839b5c3876d56646a91f73937041e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Sewer 01.prefab using Guid(4839b5c3876d56646a91f73937041e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6944f87e8b197ae87a39f7db2528ff8e') in 0.016482 seconds
+  Import took 0.018592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 06.prefab
+  artifactKey: Guid(54513d23cacf66a4ab14edc8bc678bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 06.prefab using Guid(54513d23cacf66a4ab14edc8bc678bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1894da87e3b5a403a11c12d7ea82f589') in 0.012773 seconds
+  Import took 0.015322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Hologram 01.prefab
+  artifactKey: Guid(d63f9c5c46b0e1342b1c3fc281ae51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Hologram 01.prefab using Guid(d63f9c5c46b0e1342b1c3fc281ae51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1367dc677b700201a5eed7aeb1ba5f41') in 0.011121 seconds
+  Import took 0.013772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Tiles 02.prefab
+  artifactKey: Guid(01b55a4798d143245b8b8b7ce3e83111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Tiles 02.prefab using Guid(01b55a4798d143245b8b8b7ce3e83111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05a9584d3603c6d8dfa2625f5b5214c') in 0.012439 seconds
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Spotlight 01.prefab
+  artifactKey: Guid(2653d12a6dd346b4cbfa5200252cb577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Spotlight 01.prefab using Guid(2653d12a6dd346b4cbfa5200252cb577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a778ef3167f5c932d4011ae4be29d8') in 0.013155 seconds
+  Import took 0.015464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Torch 01.prefab
+  artifactKey: Guid(4a54229c9e45d6e4bb08caee525d1bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Torch 01.prefab using Guid(4a54229c9e45d6e4bb08caee525d1bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228f6ef74960ae1fb6de9be8d13fc157') in 0.015467 seconds
+  Import took 0.017790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Tiles 03.prefab
+  artifactKey: Guid(2a630672c4e100041bf3d8dba6f48d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Tiles 03.prefab using Guid(2a630672c4e100041bf3d8dba6f48d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6a790977f11a6886bdf19d2f37de7a') in 0.012101 seconds
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 03.prefab
+  artifactKey: Guid(59816c1d060fc744bafe183adf472e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 03.prefab using Guid(59816c1d060fc744bafe183adf472e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8edeccb7f573f3689d1ef93606c0daf') in 0.013843 seconds
+  Import took 0.015887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 04.prefab
+  artifactKey: Guid(0e3c62d33a5d923449acb77374b2a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 04.prefab using Guid(0e3c62d33a5d923449acb77374b2a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb852d0b90afcaf035faf7642813aa1') in 0.013344 seconds
+  Import took 0.015513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Wall 01.prefab
+  artifactKey: Guid(cbcf08d64a9fb284c929725cf6c5b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Wall 01.prefab using Guid(cbcf08d64a9fb284c929725cf6c5b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cafbc69cde5e9fc15197db21a1747f8') in 0.011708 seconds
+  Import took 0.013674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 05.prefab
+  artifactKey: Guid(cd9f4e89e2f403547b1f1017c2e631a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 05.prefab using Guid(cd9f4e89e2f403547b1f1017c2e631a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c77500e6af9ff407525d7a7f49f389') in 0.012550 seconds
+  Import took 0.014536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 02.prefab
+  artifactKey: Guid(ef36f9e604233014b9bbac47cd97cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Machine 02.prefab using Guid(ef36f9e604233014b9bbac47cd97cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40dc9d8bfd82cb12e0b6534edffbea0') in 0.012057 seconds
+  Import took 0.014322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 01.prefab
+  artifactKey: Guid(ecc9f28cc19cded42b23a9922e6dd59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 01.prefab using Guid(ecc9f28cc19cded42b23a9922e6dd59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ead9a15bcb86ac5ff1aeb6888560b8') in 0.011716 seconds
+  Import took 0.013984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Stairs 01.prefab
+  artifactKey: Guid(548f0f581a0c9984796ed38e743cab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Stairs 01.prefab using Guid(548f0f581a0c9984796ed38e743cab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7043499014f593561e34a5fb77eaca8') in 0.012874 seconds
+  Import took 0.015167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Tiles 01.prefab
+  artifactKey: Guid(422becb60c56d8b42879b7960708da65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Tiles 01.prefab using Guid(422becb60c56d8b42879b7960708da65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5b63aba16a7a75845cf140d8cd512e') in 0.011464 seconds
+  Import took 0.013629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Portal 01.prefab
+  artifactKey: Guid(0d83c30c76f838d41b37229ba5b24deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Portal 01.prefab using Guid(0d83c30c76f838d41b37229ba5b24deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0efe8d6c205e663c3ceae0645a9d2ef') in 0.013263 seconds
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 07.prefab
+  artifactKey: Guid(a4e1deff6575fbf44b413d8e2b6f1c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Signboard 07.prefab using Guid(a4e1deff6575fbf44b413d8e2b6f1c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7a112c8ff9b97444ee3c53655fd634') in 0.012735 seconds
+  Import took 0.014831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Sign Stand 01.prefab
+  artifactKey: Guid(50b495ba7b09ae1469a1de3c97f5e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Environment/Sign Stand 01.prefab using Guid(50b495ba7b09ae1469a1de3c97f5e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9423cfa151bb6e1d200f39813f1d02') in 0.011048 seconds
+  Import took 0.013180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.823098 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Customize Character here/01 Choose Costume
+  artifactKey: Guid(eaa2e150beb74684db0a022d7e2441f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Customize Character here/01 Choose Costume using Guid(eaa2e150beb74684db0a022d7e2441f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2adccba4b19f09428e7915b4f4f87f4') in 0.005908 seconds
+  Import took 0.008050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Customize Character here/01 Choose Costume
+  artifactKey: Guid(eaa2e150beb74684db0a022d7e2441f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Customize Character here/01 Choose Costume using Guid(eaa2e150beb74684db0a022d7e2441f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2adccba4b19f09428e7915b4f4f87f4') in 0.002259 seconds
+  Import took 0.004415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767156 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/Customize Character here/01 Choose Costume/Multi Meshes (Max Customization)
+  artifactKey: Guid(81b8b574ee61d4d4c9ae48a2a8980346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/Customize Character here/01 Choose Costume/Multi Meshes (Max Customization) using Guid(81b8b574ee61d4d4c9ae48a2a8980346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4181f4956f9572788ae8a6e9cd829c') in 0.005267 seconds
+  Import took 0.007217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.058931 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/FX
+  artifactKey: Guid(bb209516effd06547bc79b8ff31b037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/FX using Guid(bb209516effd06547bc79b8ff31b037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3302a8be2f74afee175c4878df4eed84') in 0.006187 seconds
+  Import took 0.008404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Prefabs/FX
+  artifactKey: Guid(bb209516effd06547bc79b8ff31b037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Prefabs/FX using Guid(bb209516effd06547bc79b8ff31b037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3302a8be2f74afee175c4878df4eed84') in 0.002046 seconds
+  Import took 0.004405 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003207 seconds.
+Registered in 0.003251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1852.
+Total: 1.555300 ms (FindLiveObjects: 0.106200 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.404000 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1855.
+Total: 1.507800 ms (FindLiveObjects: 0.104200 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.359400 ms  DeleteObjects: 0.012100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1858.
+Total: 1.430100 ms (FindLiveObjects: 0.107700 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.276800 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003742 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -303,16 +1171,39 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.825 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 1.539300 ms (FindLiveObjects: 0.110200 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.382500 ms  DeleteObjects: 0.012800 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1861.
+Total: 1.608200 ms (FindLiveObjects: 0.122200 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.433300 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 1.450600 ms (FindLiveObjects: 0.106000 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.299300 ms  DeleteObjects: 0.012900 ms)
 
 ========================================================================
 Received Prepare
@@ -323,147 +1214,116 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 1.436200 ms (FindLiveObjects: 0.115600 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.271700 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 1.530300 ms (FindLiveObjects: 0.110700 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.372600 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 1.549800 ms (FindLiveObjects: 0.106300 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.396400 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 1.452400 ms (FindLiveObjects: 0.103700 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.303500 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 1.570400 ms (FindLiveObjects: 0.111000 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.410500 ms  DeleteObjects: 0.016000 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 1.579900 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.355000 ms  DeleteObjects: 0.014000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003224 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1854.
-Total: 1.485700 ms (FindLiveObjects: 0.108000 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.330600 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.7 MB.
-System memory in use after: 65.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1857.
-Total: 1.615500 ms (FindLiveObjects: 0.119200 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.445100 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003514 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.7 MB.
-System memory in use after: 65.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1860.
-Total: 1.517000 ms (FindLiveObjects: 0.110900 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.356100 ms  DeleteObjects: 0.015400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004143 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.7 MB.
-System memory in use after: 65.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1863.
-Total: 1.818500 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.627200 ms  DeleteObjects: 0.014700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1199.244887 seconds.
-  path: Assets/ArtAssets/Prefabs/mainChar.prefab
-  artifactKey: Guid(05a45dc887ae54a4d8f7850981c33573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ArtAssets/Prefabs/mainChar.prefab using Guid(05a45dc887ae54a4d8f7850981c33573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1087ce064ab34ccbe8f3764cb5939b') in 0.075931 seconds
-  Import took 0.078070 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003192 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.8 MB.
-System memory in use after: 68.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 1.552900 ms (FindLiveObjects: 0.117300 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.381500 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003311 seconds.
+Registered in 0.003296 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -474,13 +1334,127 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.822 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.8 MB.
-System memory in use after: 68.9 MB.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 1.786700 ms (FindLiveObjects: 0.113300 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.625400 ms  DeleteObjects: 0.015100 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 1.528500 ms (FindLiveObjects: 0.116100 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.361700 ms  DeleteObjects: 0.013600 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 1.504900 ms (FindLiveObjects: 0.110300 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.349000 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 1.575600 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.409900 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 1.573900 ms (FindLiveObjects: 0.114400 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.410800 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 1.533200 ms (FindLiveObjects: 0.111600 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.375500 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003205 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 1.513100 ms (FindLiveObjects: 0.111800 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.355000 ms  DeleteObjects: 0.012200 ms)
+

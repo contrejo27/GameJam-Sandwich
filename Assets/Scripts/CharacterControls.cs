@@ -11,11 +11,13 @@ public class CharacterControls : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
+    public GameObject GameOver;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        GameOver.SetActive(false);
     }
 
     // Update is called once per frame
@@ -30,10 +32,14 @@ public class CharacterControls : MonoBehaviour
                 jumpsLeft--;
             }
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            TakeDamage(10);
+        }
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
-
+            GameOver.SetActive(true);
         }
 
         GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0) * moveSpeed);
