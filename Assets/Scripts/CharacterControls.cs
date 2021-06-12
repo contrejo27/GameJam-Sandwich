@@ -83,15 +83,10 @@ public class CharacterControls : MonoBehaviour
             isGrounded = true;
             jumpsLeft++;
         }
-<<<<<<< Updated upstream
 
         if (collision.gameObject.tag == "EnemyBullet")
         {
-=======
-        if (collision.gameObject.tag == "EnemyBullet")
-        {
             print("taking damage");
->>>>>>> Stashed changes
             TakeDamage(20);
             Destroy(collision.gameObject);
         }
