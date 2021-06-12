@@ -30,6 +30,8 @@ public class CharacterControls : MonoBehaviour
         {
             if (Input.GetButtonDown("Jump"))
             {
+                isGrounded = false;
+
                 CharacterAnimator.ResetTrigger("Walk");
                 CharacterAnimator.ResetTrigger("Idle");
                 CharacterAnimator.SetTrigger("Jump");
@@ -53,6 +55,11 @@ public class CharacterControls : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0) * moveSpeed);
         }
 
+        if (Input.GetAxisRaw("Horizontal") ==0 && isGrounded)
+        {
+            GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+        }
+
         if (Input.GetAxisRaw("Horizontal") != 0)
         {
             CharacterAnimator.ResetTrigger("Idle");
@@ -70,15 +77,19 @@ public class CharacterControls : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+        print(isGrounded);
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
             jumpsLeft++;
         }
-        else
+
+        if (collision.gameObject.tag == "EnemyBullet")
         {
-            isGrounded = false;
+            TakeDamage(20);
+            Destroy(collision.gameObject);
         }
+
     }
 
     private void OnTriggerEnter(Collider other)
