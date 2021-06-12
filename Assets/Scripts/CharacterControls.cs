@@ -7,7 +7,7 @@ public class CharacterControls : MonoBehaviour
     public float moveSpeed = 3;
     private bool isGrounded = true;
     public float jumpHeight = 100;
-    public int jumpsLeft = 1;
+    public int jumpsLeft = 0;
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
@@ -83,9 +83,15 @@ public class CharacterControls : MonoBehaviour
             isGrounded = true;
             jumpsLeft++;
         }
+<<<<<<< Updated upstream
 
         if (collision.gameObject.tag == "EnemyBullet")
         {
+=======
+        if (collision.gameObject.tag == "EnemyBullet")
+        {
+            print("taking damage");
+>>>>>>> Stashed changes
             TakeDamage(20);
             Destroy(collision.gameObject);
         }
