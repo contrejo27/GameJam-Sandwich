@@ -77,7 +77,6 @@ public class CharacterControls : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        print(isGrounded);
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;

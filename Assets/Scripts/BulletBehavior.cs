@@ -8,12 +8,12 @@ public class BulletBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 min = new Vector3(-70f, -70f, 0);
-        Vector3 max = new Vector3(70f, 70f, 0);
+        Vector3 min = new Vector3(-90f, -90f, 0);
+        Vector3 max = new Vector3(90f, 90f, 0);
         Vector3 randomVector = new Vector3(UnityEngine.Random.Range(min.x, max.x), UnityEngine.Random.Range(min.y, max.y), UnityEngine.Random.Range(min.z, max.z));
-        Vector3 gunDirectionVariation = GameObject.FindObjectOfType<WeaponBehavior>().gunDirection * 500 + randomVector;
+        Vector3 gunDirectionVariation = GameObject.FindObjectOfType<WeaponBehavior>().gunDirection * bulletSpeed + randomVector;
 
-        GetComponent<Rigidbody>().AddForce(gunDirectionVariation );
+        GetComponent<Rigidbody>().AddForce(gunDirectionVariation);
         StartCoroutine("DieAfterSeconds");
     }
 
