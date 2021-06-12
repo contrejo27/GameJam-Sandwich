@@ -33,6 +33,7 @@ public class CharacterControls : MonoBehaviour
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
+
         }
 
         GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0) * moveSpeed);
