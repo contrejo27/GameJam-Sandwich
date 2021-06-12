@@ -13,6 +13,7 @@ public class CharacterControls : MonoBehaviour
     public HealthBar healthBar;
     public GameObject GameOver;
 
+    public Animator CharacterAnimator; 
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,10 @@ public class CharacterControls : MonoBehaviour
         {
             if (Input.GetButtonDown("Jump"))
             {
+                CharacterAnimator.ResetTrigger("Walk");
+                CharacterAnimator.ResetTrigger("Idle");
+                CharacterAnimator.SetTrigger("Jump");
+
                 GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight);
                 jumpsLeft--;
             }
@@ -43,6 +48,19 @@ public class CharacterControls : MonoBehaviour
         }
 
         GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0) * moveSpeed);
+        if(Input.GetAxisRaw("Horizontal") != 0)
+        {
+            CharacterAnimator.ResetTrigger("Idle");
+
+            CharacterAnimator.SetTrigger("Walk");
+        }
+        else
+        {
+            CharacterAnimator.ResetTrigger("Walk");
+
+            CharacterAnimator.SetTrigger("Idle");
+
+        }
 
     }
     private void OnCollisionEnter(Collision collision)
