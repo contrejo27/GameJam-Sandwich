@@ -12,6 +12,7 @@ public class CharacterControls : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
     public GameObject GameOver;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +56,15 @@ public class CharacterControls : MonoBehaviour
         else
         {
             isGrounded = false;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Item"))
+        {
+            GameObject.FindObjectOfType<WeaponBehavior>().ammo += 10;
+            Destroy(other.gameObject);
         }
     }
     void TakeDamage(int damage)

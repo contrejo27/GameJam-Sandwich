@@ -4,29 +4,54 @@ using UnityEngine;
 
 public class WeaponBehavior : MonoBehaviour
 {
+    public enum GunType { Shotgun};
+
+    public GunType currentGunType;
+
     public Vector3 gunDirection;
     public GameObject bulletPrefab;
     public Transform muzzlePos;
 
     public int ammo = 10;
+
+    float cameraDistance;
+
+
     // Start is called before the first frame update
     void Start()
     {
         gunDirection = Vector3.zero;
+        cameraDistance =  Camera.main.transform.position.z * -1;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         Vector3 mousePos = Input.mousePosition;
-        transform.LookAt(Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, 40)));
+        
+        transform.LookAt(Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, cameraDistance)));
         gunDirection = transform.forward;
 
         if (Input.GetMouseButtonDown(0))
         {
             if (ammo > 0)
             { 
-                Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+                if(currentGunType == GunType.Shotgun)
+                {
+                    Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+
+
+                    Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+                   
+                    Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+
+                    Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+
+                    Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+                }
+                else Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+
                 ammo--;
             }
         }
