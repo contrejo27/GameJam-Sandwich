@@ -12,8 +12,8 @@ public class CharacterControls : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
     public GameObject GameOver;
-
-    public Animator CharacterAnimator; 
+    public float speedClamp = 6f;
+    public Animator CharacterAnimator;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,8 +47,13 @@ public class CharacterControls : MonoBehaviour
             GameOver.SetActive(true);
         }
 
-        GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0) * moveSpeed);
-        if(Input.GetAxisRaw("Horizontal") != 0)
+
+        if (GetComponent<Rigidbody>().velocity.x < speedClamp && GetComponent<Rigidbody>().velocity.x > -speedClamp)
+        {
+            GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0) * moveSpeed);
+        }
+
+        if (Input.GetAxisRaw("Horizontal") != 0)
         {
             CharacterAnimator.ResetTrigger("Idle");
 
