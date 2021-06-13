@@ -13,6 +13,10 @@ public class BeffBehavior : MonoBehaviour
     public GameObject hitAnimationPosition;
 
     public bool enemyStartPaused = false;
+    public Animator CharacterAnimator;
+
+
+    private bool isGrounded = true;
 
     float ogEnemySpeed;
     // Start is called before the first frame update
@@ -32,6 +36,10 @@ public class BeffBehavior : MonoBehaviour
     public void Jump()
     {
         GetComponent<Rigidbody>().AddForce(Vector3.up * 450);
+        isGrounded = false;
+        CharacterAnimator.ResetTrigger("walk");
+        CharacterAnimator.ResetTrigger("idle");
+        CharacterAnimator.SetTrigger("jump");
 
     }
 
@@ -54,17 +62,36 @@ public class BeffBehavior : MonoBehaviour
             movingLeft = true;
         }
 
-        if (movingLeft == true)
+        if (isGrounded)
         {
-            GetComponent<Rigidbody>().AddForce(Vector3.right * enemySpeed);
-        }
-        else
-        {
-            GetComponent<Rigidbody>().AddForce(Vector3.left * enemySpeed);
+
+
+            if (movingLeft == true)
+            {
+                GetComponent<Rigidbody>().AddForce(Vector3.right * enemySpeed);
+                CharacterAnimator.ResetTrigger("idle");
+                CharacterAnimator.ResetTrigger("jump");
+
+                CharacterAnimator.SetTrigger("walk");
+            }
+            else
+            {
+                GetComponent<Rigidbody>().AddForce(Vector3.left * enemySpeed);
+                CharacterAnimator.ResetTrigger("idle");
+                CharacterAnimator.ResetTrigger("jump");
+
+                CharacterAnimator.SetTrigger("walkBack");
+            }
         }
     }
-
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
+        private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Bullet")
         {

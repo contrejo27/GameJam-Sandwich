@@ -26,7 +26,8 @@ public class StoryLogic : MonoBehaviour
     {
         stories[currentStory].SetActive(false);
         bgImage.SetActive(false);
-        firstEnemy.UnpauseEnemy();
+        if(firstEnemy != null) firstEnemy.UnpauseEnemy();
+
     }
 
     public void NextStory()
