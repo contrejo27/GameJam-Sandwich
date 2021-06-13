@@ -108,4 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca4c530e39472bb4f9faf7981ebe1fca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyBullet: {fileID: 4324153701740163747}
+  enemyBullet: {fileID: 1374267004960804, guid: 22d294288012ca446bf50ffb2281ba95, type: 3}

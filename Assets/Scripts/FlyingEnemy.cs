@@ -46,7 +46,6 @@ public class FlyingEnemy : MonoBehaviour
     {
         yield return new WaitForSeconds(Random.Range(1,3));
         Instantiate(enemyBulletPrefab, BulletSpawn.transform.position, Quaternion.identity);
-        Instantiate(BulletExit, BulletSpawn.transform.position, Quaternion.identity);
         StartCoroutine("ShootAtRandomSeconds");
       
     }

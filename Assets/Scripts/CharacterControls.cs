@@ -86,6 +86,10 @@ public class CharacterControls : MonoBehaviour
         {
             TakeDamage(4);
         }
+        if (collision.gameObject.tag == "BigEnemy")
+        {
+            TakeDamage(10);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -101,6 +105,7 @@ public class CharacterControls : MonoBehaviour
             Destroy(other.gameObject);
             Instantiate(HitPlayer, transform.position, Quaternion.identity);
         }
+
     }
     void TakeDamage(int damage)
     {

@@ -13,11 +13,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2698396509583077856, guid: 2bed20976aff95b49bc98c4f73c443ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.52
+      value: 3.15
       objectReference: {fileID: 0}
     - target: {fileID: 2698396509583077856, guid: 2bed20976aff95b49bc98c4f73c443ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.83
+      value: 2.736
       objectReference: {fileID: 0}
     - target: {fileID: 2698396509583077856, guid: 2bed20976aff95b49bc98c4f73c443ea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: BulletExit
       value: 
       objectReference: {fileID: 100006, guid: 0661276422528d74d8c9894abad93242, type: 3}
+    - target: {fileID: 2698396509583077858, guid: 2bed20976aff95b49bc98c4f73c443ea, type: 3}
+      propertyPath: enemyBulletPrefab
+      value: 
+      objectReference: {fileID: 1607489160101874, guid: 413b180ebab02d349a31789fab789ef6, type: 3}
     - target: {fileID: 2698396509583077860, guid: 2bed20976aff95b49bc98c4f73c443ea, type: 3}
       propertyPath: m_Name
       value: Flying Enemy (1) Variant

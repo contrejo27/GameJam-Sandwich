@@ -16,13 +16,11 @@ public class WeaponBehavior : MonoBehaviour
 
     float cameraDistance;
 
-
     // Start is called before the first frame update
     void Start()
     {
         gunDirection = Vector3.zero;
         cameraDistance =  Camera.main.transform.position.z * -1;
-
     }
 
     // Update is called once per frame
@@ -53,6 +51,7 @@ public class WeaponBehavior : MonoBehaviour
                 else Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
 
                 ammo--;
+                
             }
         }
 
