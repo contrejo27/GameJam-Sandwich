@@ -35,11 +35,8 @@ public class BigEnemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
-
         if (transform.position.x < startPosition.x + .5)
         {
-
             movingLeft = false;
         }
 
@@ -57,6 +54,7 @@ public class BigEnemy : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(Vector3.left * enemySpeed);
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Bullet")
