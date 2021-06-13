@@ -115,6 +115,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 4324153701740163747, guid: 3d5fcaf86187395448fc9e14dfebc318, type: 3}
   bulletSpeed: 20
   enemySpeed: 3
+  Explosion: {fileID: 100006, guid: 2e7e92bc7175b744ea40878dedfa79e4, type: 3}
 --- !u!54 &2698396509583077859
 Rigidbody:
   m_ObjectHideFlags: 0

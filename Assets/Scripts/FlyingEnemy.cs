@@ -11,6 +11,7 @@ public class FlyingEnemy : MonoBehaviour
     public float enemySpeed = 5f;
     Vector3 startPosition;
     public GameObject Explosion;
+    public GameObject BulletExit;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,9 +44,10 @@ public class FlyingEnemy : MonoBehaviour
     }
     IEnumerator ShootAtRandomSeconds()
     {
-            yield return new WaitForSeconds(Random.Range(1,3));
-            Instantiate(enemyBulletPrefab, BulletSpawn.transform.position, Quaternion.identity);
-            StartCoroutine("ShootAtRandomSeconds");
+        yield return new WaitForSeconds(Random.Range(1,3));
+        Instantiate(enemyBulletPrefab, BulletSpawn.transform.position, Quaternion.identity);
+        Instantiate(BulletExit, BulletSpawn.transform.position, Quaternion.identity);
+        StartCoroutine("ShootAtRandomSeconds");
       
     }
     private void OnTriggerEnter(Collider other)

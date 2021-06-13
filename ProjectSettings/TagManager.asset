@@ -9,11 +9,12 @@ TagManager:
   - Bullet
   - Enemy
   - EnemyBullet
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcessing
   - Water
   - UI
   - 

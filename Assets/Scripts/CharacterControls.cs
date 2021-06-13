@@ -14,6 +14,7 @@ public class CharacterControls : MonoBehaviour
     public GameObject GameOver;
     public float speedClamp = 6f;
     public Animator CharacterAnimator;
+    public GameObject HitPlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -83,7 +84,6 @@ public class CharacterControls : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-            print("taking damage");
             TakeDamage(4);
         }
     }
@@ -97,9 +97,9 @@ public class CharacterControls : MonoBehaviour
         }
         if (other.gameObject.CompareTag("EnemyBullet"))
         {
-            print("taking damage");
             TakeDamage(8);
             Destroy(other.gameObject);
+            Instantiate(HitPlayer, transform.position, Quaternion.identity);
         }
     }
     void TakeDamage(int damage)
