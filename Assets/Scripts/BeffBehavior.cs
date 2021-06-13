@@ -11,10 +11,13 @@ public class BeffBehavior : MonoBehaviour
     public int enemyHealth = 15;
     public GameObject hitPlayer;
     public GameObject hitAnimationPosition;
-
+    public Transform BulletSpawn;
+    public GameObject enemyBulletPrefab;
     public bool enemyStartPaused = false;
     public Animator CharacterAnimator;
 
+    public GameObject enemy;
+    public GameObject enemySpawn;
 
     private bool isGrounded = true;
 
@@ -31,6 +34,26 @@ public class BeffBehavior : MonoBehaviour
 
         InvokeRepeating("Jump", 3f, 4);
         InvokeRepeating("Jump", 1f, 7);
+
+        StartCoroutine("ShootAtRandomSeconds");
+        StartCoroutine("SpawnEnemyAtRandomSeconds");
+
+    }
+
+    IEnumerator ShootAtRandomSeconds()
+    {
+        yield return new WaitForSeconds(Random.Range(1, 3));
+        Instantiate(enemyBulletPrefab, BulletSpawn.transform.position, Quaternion.identity);
+        StartCoroutine("ShootAtRandomSeconds");
+
+    }
+
+    IEnumerator SpawnEnemyAtRandomSeconds()
+    {
+        yield return new WaitForSeconds(Random.Range(3, 5));
+        GameObject enemyGO = Instantiate(enemy, enemySpawn.transform.position, Quaternion.identity);
+        enemyGO.GetComponent<Rigidbody>().AddForce(Vector3.left * 50);
+        StartCoroutine("SpawnEnemyAtRandomSeconds");
 
     }
     public void Jump()

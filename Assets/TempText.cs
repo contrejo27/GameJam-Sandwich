@@ -14,6 +14,6 @@ public class TempText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Text>().text = GameObject.FindObjectOfType<WeaponBehavior>().ammo.ToString();
+        GetComponent<TMPro.TextMeshProUGUI>().text = GameObject.FindObjectOfType<WeaponBehavior>().ammo.ToString();
     }
 }

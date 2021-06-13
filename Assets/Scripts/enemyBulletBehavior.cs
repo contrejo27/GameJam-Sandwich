@@ -19,6 +19,6 @@ public class enemyBulletBehavior : MonoBehaviour
     IEnumerator DestroyBulletAfterSeconds()
     {
         yield return new WaitForSeconds(5);
-        DestroyImmediate(enemyBullet);
+        DestroyImmediate(gameObject, true);
     }
 }
