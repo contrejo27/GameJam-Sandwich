@@ -22,8 +22,12 @@ public class TeleporterBehavior : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        thePlayer.transform.position = teleportTarget.transform.position;
-        beff.SetActive(true);
+        if (other.CompareTag("Player"))
+        {
+            thePlayer.transform.position = teleportTarget.transform.position;
+            beff.SetActive(true);
+        }
+
 
     }
 }

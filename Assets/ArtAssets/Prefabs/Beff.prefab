@@ -133,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemySpeed: 3
   Explosion: {fileID: 100006, guid: 2e7e92bc7175b744ea40878dedfa79e4, type: 3}
-  enemyHealth: 30
+  enemyHealth: 400
   hitPlayer: {fileID: 100006, guid: a49596ebf788acd4ab1281bffea444b1, type: 3}
   hitAnimationPosition: {fileID: 6742608804474289756}
   BulletSpawn: {fileID: 3794592426563566756}

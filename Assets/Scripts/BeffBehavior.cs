@@ -52,13 +52,13 @@ public class BeffBehavior : MonoBehaviour
     {
         yield return new WaitForSeconds(Random.Range(3, 5));
         GameObject enemyGO = Instantiate(enemy, enemySpawn.transform.position, Quaternion.identity);
-        enemyGO.GetComponent<Rigidbody>().AddForce(Vector3.left * 50);
+        enemyGO.GetComponent<Rigidbody>().AddForce(Vector3.right * 70);
         StartCoroutine("SpawnEnemyAtRandomSeconds");
 
     }
     public void Jump()
     {
-        GetComponent<Rigidbody>().AddForce(Vector3.up * 450);
+        GetComponent<Rigidbody>().AddForce(Vector3.up * 450 + Vector3.left *30);
         isGrounded = false;
         CharacterAnimator.ResetTrigger("walk");
         CharacterAnimator.ResetTrigger("idle");
@@ -125,7 +125,10 @@ public class BeffBehavior : MonoBehaviour
             {
                 Destroy(gameObject);
                 Instantiate(Explosion, transform.position, Quaternion.identity);
+
+                FindObjectOfType<StoryLogic>().NextStory();
             }
         }
     }
+
 }
