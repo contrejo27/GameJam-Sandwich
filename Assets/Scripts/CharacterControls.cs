@@ -47,7 +47,7 @@ public class CharacterControls : MonoBehaviour
         if (currentHealth <= 0)
         {
             GameOver.SetActive(true);
-            Time.timeScale = 0;
+            Time.timeScale = 0f;
         }
 
 

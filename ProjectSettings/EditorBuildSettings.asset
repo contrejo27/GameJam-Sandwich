@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 0a6b3d5e445b98347a239d90f759900e
   - enabled: 1
-    path: Assets/Scenes/J_sandbox.unity
-    guid: 33d2fc6d916c3d44b8e78f574b33bb35
+    path: Assets/Scenes/GameplayScene.unity
+    guid: 32e59cc35c4ac9d49ba3a3cf6b674750
   m_configObjects: {}

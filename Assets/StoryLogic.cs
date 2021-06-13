@@ -34,7 +34,5 @@ public class StoryLogic : MonoBehaviour
         currentStory++;
         stories[currentStory].SetActive(true);
         bgImage.SetActive(true);
-
-
     }
 }
