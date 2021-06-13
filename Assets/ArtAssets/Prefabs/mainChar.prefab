@@ -213,12 +213,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   jumpHeight: 250
-  jumpsLeft: 1
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 0}
   GameOver: {fileID: 0}
+  speedClamp: 6
   CharacterAnimator: {fileID: 8661287055769984406}
+  HitPlayer: {fileID: 0}
 --- !u!114 &8726467062616147328
 MonoBehaviour:
   m_ObjectHideFlags: 0
