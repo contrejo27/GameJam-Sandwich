@@ -7,7 +7,6 @@ public class CharacterControls : MonoBehaviour
     public float moveSpeed = 3;
     private bool isGrounded = true;
     public float jumpHeight = 100;
-    public int jumpsLeft = 0;
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
@@ -23,11 +22,10 @@ public class CharacterControls : MonoBehaviour
         GameOver.SetActive(false);
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-
-        if (isGrounded && jumpsLeft > 0)
+        if (isGrounded)
         {
             if (Input.GetButtonDown("Jump"))
             {
@@ -38,9 +36,14 @@ public class CharacterControls : MonoBehaviour
                 CharacterAnimator.SetTrigger("Jump");
 
                 GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight);
-                jumpsLeft--;
             }
         }
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+
         if (currentHealth <= 0)
         {
             GameOver.SetActive(true);
@@ -79,7 +82,6 @@ public class CharacterControls : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
-            jumpsLeft++;
         }
 
         if (collision.gameObject.tag == "Enemy")
@@ -89,7 +91,6 @@ public class CharacterControls : MonoBehaviour
         if (collision.gameObject.tag == "BigEnemy")
         {
             TakeDamage(20);
-            print("enemyHit Big");
             GetComponent<Rigidbody>().AddForce(Vector3.left * 1000 + Vector3.up *100);
         }
     }
