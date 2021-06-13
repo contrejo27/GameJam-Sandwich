@@ -53,9 +53,10 @@ public class CharacterControls : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0) * moveSpeed);
         }
 
-        if (Input.GetAxisRaw("Horizontal") ==0 && isGrounded)
+
+        if (Input.GetAxisRaw("Horizontal") ==0)
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+            GetComponent<Rigidbody>().velocity = new Vector3(0f, GetComponent<Rigidbody>().velocity.y, 0f);
         }
 
         if (Input.GetAxisRaw("Horizontal") != 0)
@@ -75,7 +76,6 @@ public class CharacterControls : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        print(isGrounded);
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
@@ -84,11 +84,13 @@ public class CharacterControls : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-            TakeDamage(4);
+            TakeDamage(16);
         }
         if (collision.gameObject.tag == "BigEnemy")
         {
-            TakeDamage(10);
+            TakeDamage(20);
+            print("enemyHit Big");
+            GetComponent<Rigidbody>().AddForce(Vector3.left * 1000 + Vector3.up *100);
         }
     }
 
@@ -101,9 +103,9 @@ public class CharacterControls : MonoBehaviour
         }
         if (other.gameObject.CompareTag("EnemyBullet"))
         {
-            TakeDamage(8);
+            TakeDamage(20);
+            GameObject test = Instantiate(HitPlayer, transform.position, Quaternion.identity);
             Destroy(other.gameObject);
-            Instantiate(HitPlayer, transform.position, Quaternion.identity);
         }
 
     }

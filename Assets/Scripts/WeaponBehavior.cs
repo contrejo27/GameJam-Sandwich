@@ -38,14 +38,9 @@ public class WeaponBehavior : MonoBehaviour
                 if(currentGunType == GunType.Shotgun)
                 {
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
-
-
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
-                   
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
-
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
-
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
                 }
                 else Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
