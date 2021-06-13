@@ -14,7 +14,7 @@ public class enemyBulletBehavior : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position -= Vector3.right * .03f;
+        transform.position -= Vector3.right * .07f;
     }
     IEnumerator DestroyBulletAfterSeconds()
     {
