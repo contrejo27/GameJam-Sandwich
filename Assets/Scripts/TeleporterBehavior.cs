@@ -6,6 +6,9 @@ public class TeleporterBehavior : MonoBehaviour
 {
     public Transform teleportTarget;
     public GameObject thePlayer;
+
+    public GameObject beff;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +23,7 @@ public class TeleporterBehavior : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         thePlayer.transform.position = teleportTarget.transform.position;
+        beff.SetActive(true);
 
     }
 }
