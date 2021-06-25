@@ -15,11 +15,11 @@ C:/Users/contr/Documents/G/Dev/Unity/AoG_Projects/Game_Jams/GameJam-Sandwich
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55780
+57810
 Successfully changed project path to: C:/Users/contr/Documents/G/Dev/Unity/AoG_Projects/Game_Jams/GameJam-Sandwich
 C:/Users/contr/Documents/G/Dev/Unity/AoG_Projects/Game_Jams/GameJam-Sandwich
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -37,467 +37,1888 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003253 seconds.
+Registered in 0.002105 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.598 seconds
+- Completed reload, in  3.041 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008107 seconds.
+Registered in 0.006783 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.551 seconds
+- Completed reload, in  0.988 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2019.
-Total: 2.266600 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.918900 ms  DeleteObjects: 0.148300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Star_B.prefab
-  artifactKey: Guid(2547a66872ebe45408ace228820a79e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Star_B.prefab using Guid(2547a66872ebe45408ace228820a79e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41939f6f4a318ed5b7bf8cddb39991c') in 0.066705 seconds
-  Import took 0.071581 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2022.
+Total: 2.419700 ms (FindLiveObjects: 0.133900 ms CreateObjectMapping: 0.041000 ms MarkObjects: 2.010000 ms  DeleteObjects: 0.231500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Heart.prefab
-  artifactKey: Guid(f87e7926fd589094b8a269e14b8bea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Heart.prefab using Guid(f87e7926fd589094b8a269e14b8bea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c1d22def7d29793bc5170bf23c9b24') in 0.010181 seconds
-  Import took 0.015021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/DustSmoke_A.prefab
-  artifactKey: Guid(e5df5caad603c8349ba3481b8ded0927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/DustSmoke_A.prefab using Guid(e5df5caad603c8349ba3481b8ded0927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ac96bc482b707f37af2fddf400acc') in 0.013145 seconds
-  Import took 0.018309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/smoke_thick.prefab
-  artifactKey: Guid(d26aaf76e6e2409448242b9a2d66f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/smoke_thick.prefab using Guid(d26aaf76e6e2409448242b9a2d66f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee98966d35d06b061e7a2c2de748755') in 0.016510 seconds
-  Import took 0.021540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/BlueGuy.fbx
-  artifactKey: Guid(fb2b06b61d6822d449ad6dff7007557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/BlueGuy.fbx using Guid(fb2b06b61d6822d449ad6dff7007557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ee8e13cfb44b0c9717492d6bc6a0ae') in 0.232262 seconds
-  Import took 0.236194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Plane.prefab
-  artifactKey: Guid(d1fbff3227e65a143b2f53a6f47faaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Plane.prefab using Guid(d1fbff3227e65a143b2f53a6f47faaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988ad29b46304f9f49e5bf4e5a5f8261') in 0.044072 seconds
-  Import took 0.047539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/MuzzleFlash.prefab
-  artifactKey: Guid(9bf79f2d846a57440a981c168c87c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/MuzzleFlash.prefab using Guid(9bf79f2d846a57440a981c168c87c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628418d0bd9260c701550a2c645e0f22') in 0.115498 seconds
-  Import took 0.119032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Fire_A.prefab
-  artifactKey: Guid(8b47f39d91e61384889cff33839361dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Fire_A.prefab using Guid(8b47f39d91e61384889cff33839361dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00005ac878dd956c264522b12b7d985') in 0.009514 seconds
-  Import took 0.013843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Explosion_A.prefab
-  artifactKey: Guid(779aa8c25fbd0e1488637639c9fff976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Explosion_A.prefab using Guid(779aa8c25fbd0e1488637639c9fff976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13449b6507b069b0aaaa6752622446a7') in 0.014304 seconds
-  Import took 0.018585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/smoke_thin.prefab
-  artifactKey: Guid(b07739ad126c6ff46875821c2a3cd124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/smoke_thin.prefab using Guid(b07739ad126c6ff46875821c2a3cd124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b94399b70a43b75e713197838d7dab') in 0.013308 seconds
-  Import took 0.019143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Star_A.prefab
-  artifactKey: Guid(cc461484bcafc664fb68be84c1fc6860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Star_A.prefab using Guid(cc461484bcafc664fb68be84c1fc6860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a27980ca689670d41e9f7eb253e97fd') in 0.012756 seconds
-  Import took 0.018976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Fire_B.prefab
-  artifactKey: Guid(83f5e574addfb424ebd95bbb8ff8b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Fire_B.prefab using Guid(83f5e574addfb424ebd95bbb8ff8b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa309855d0e89fb3e71fb01cc5ef5619') in 0.012266 seconds
-  Import took 0.017086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs/Spark.prefab
-  artifactKey: Guid(18c0a8b63ea8b4448a595b0c24c1384a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Spark.prefab using Guid(18c0a8b63ea8b4448a595b0c24c1384a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcbcd210daa96f0a806ec7271cdece7') in 0.013682 seconds
-  Import took 0.018167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Prefabs
-  artifactKey: Guid(a3a504e408ca2f24697af91ece75274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Prefabs using Guid(a3a504e408ca2f24697af91ece75274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fde9b1214a92ecba897300b9948544') in 0.007470 seconds
-  Import took 0.012026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.104584 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Materials/Smoke_thin.mat
-  artifactKey: Guid(8764e26efc3afff4db4bfbabc8fd2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Materials/Smoke_thin.mat using Guid(8764e26efc3afff4db4bfbabc8fd2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb293f1528d42e146cf1cef3314c13ae') in 4.354324 seconds
-  Import took 4.363495 seconds .
+  path: Assets/Cube - Sci Fi Underworld City/Animators/Idle.controller
+  artifactKey: Guid(39543ee041e0d654d8beb56495438bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Animators/Idle.controller using Guid(39543ee041e0d654d8beb56495438bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86582ef32ca8b1b44400160a318c269e') in 0.041813 seconds
+  Import took 0.046495 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005971 seconds.
+Registered in 0.014629 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  1.098 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.1 MB.
-System memory in use after: 152.2 MB.
+System memory in use before: 148.8 MB.
+System memory in use after: 148.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2069.
-Total: 2.661700 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.065400 ms MarkObjects: 2.286100 ms  DeleteObjects: 0.063400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003584 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2073.
-Total: 2.487700 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.160700 ms  DeleteObjects: 0.064900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 2.921300 ms (FindLiveObjects: 0.153900 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.477200 ms  DeleteObjects: 0.240700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003382 seconds.
+Registered in 0.007404 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
+- Completed reload, in  1.666 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 148.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2076.
-Total: 3.561400 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.146700 ms MarkObjects: 3.047600 ms  DeleteObjects: 0.123900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 3.549700 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.079400 ms MarkObjects: 3.107700 ms  DeleteObjects: 0.060200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 517.533046 seconds.
-  path: Assets/CharacterVisualBehavior.cs
-  artifactKey: Guid(5125eee2b0e3c0844b22f54ff57e9afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CharacterVisualBehavior.cs using Guid(5125eee2b0e3c0844b22f54ff57e9afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0adf16875fa2e074826074523b79cd') in 0.019654 seconds
-  Import took 0.024458 seconds .
+  Time since last request: 669.741759 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd467b7687feaaecbf35bd09500b8f818') in 0.238121 seconds
+  Import took 0.245539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.697950 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a2325c9b10af9ed15f478d46a6cf1c') in 0.035067 seconds
+  Import took 0.038736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.125199 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588db58af999d90a1cf62194b28d0379') in 0.036938 seconds
+  Import took 0.041002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.918879 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ce1b0438bb3852d683d3558d553acb') in 0.032756 seconds
+  Import took 0.040846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.892309 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411f7fda9d2bcfcc5f4f28b3af08e221') in 0.026359 seconds
+  Import took 0.032342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.994971 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d3b82d5767c6db41d294fa346aa084') in 0.031599 seconds
+  Import took 0.035989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.906282 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28409457e82b12d87f359afde793b275') in 0.037875 seconds
+  Import took 0.042343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.271024 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0d98e829a89df1b2ebfce27fb04e5e') in 0.022294 seconds
+  Import took 0.028289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.487321 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af7c6a9c66720c7c17df3179081d4c8') in 0.029769 seconds
+  Import took 0.034651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.859125 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3b430febb9c3cd1a6fd8a5f72dd9fb') in 0.036626 seconds
+  Import took 0.040603 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005146 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2078.
-Total: 2.369200 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.964000 ms  DeleteObjects: 0.055500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003404 seconds.
+Registered in 0.003611 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.089 seconds
+- Completed reload, in  1.017 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
+System memory in use before: 165.7 MB.
+System memory in use after: 165.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2081.
-Total: 2.115000 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.743300 ms  DeleteObjects: 0.098100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 31.349400 ms (FindLiveObjects: 1.951000 ms CreateObjectMapping: 1.149500 ms MarkObjects: 26.357900 ms  DeleteObjects: 1.882100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1119.875403 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Border 03.FBX
+  artifactKey: Guid(91108cc68e355a748811619ef219f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Border 03.FBX using Guid(91108cc68e355a748811619ef219f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154e6b94bad5ed5e96f82c2a1b687384') in 0.160772 seconds
+  Import took 0.166005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.467432 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Beard 03.FBX
+  artifactKey: Guid(6f231124bc9dfa04dbe17f0041392231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Beard 03.FBX using Guid(6f231124bc9dfa04dbe17f0041392231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b9c3c77347e4db987f740ded1b34a2') in 0.044453 seconds
+  Import took 0.049199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Border 02.FBX
+  artifactKey: Guid(026f06756be3d8944af1e957b0f092af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Border 02.FBX using Guid(026f06756be3d8944af1e957b0f092af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3d647b539fa68b618e974e5ce7569c') in 0.034352 seconds
+  Import took 0.037911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Border 01.FBX
+  artifactKey: Guid(ec887e8dc8d09214486e7e616a83b366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Border 01.FBX using Guid(ec887e8dc8d09214486e7e616a83b366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a443bdb4a2a02e86d1426bb55d104bc') in 0.047281 seconds
+  Import took 0.053315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Bench 01.FBX
+  artifactKey: Guid(2bae819e700e2e74a8e10843e3e6b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Bench 01.FBX using Guid(2bae819e700e2e74a8e10843e3e6b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3b8494de439a80204fee00bb529cd0') in 0.037442 seconds
+  Import took 0.045908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Beard 01.FBX
+  artifactKey: Guid(902a112fe3ce26644a4aaab74be39380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Beard 01.FBX using Guid(902a112fe3ce26644a4aaab74be39380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc903a91ef831183ca7c9deb935dd90') in 0.048960 seconds
+  Import took 0.059543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000924 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Beard 02.FBX
+  artifactKey: Guid(8a0a133eb2f1c714b9e0e52786f55c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Beard 02.FBX using Guid(8a0a133eb2f1c714b9e0e52786f55c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22714722ab1f4db1e0a8491d38ab4d0a') in 0.047057 seconds
+  Import took 0.054025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071207 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Arc 01 Yellow.FBX
+  artifactKey: Guid(d2a16fb1c5f2e8c438ec7eb03facd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Arc 01 Yellow.FBX using Guid(d2a16fb1c5f2e8c438ec7eb03facd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3aa8b83ca313c2286ab5e624919ab8e') in 0.039491 seconds
+  Import took 0.046543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Axe 01.FBX
+  artifactKey: Guid(3492ad92fa8dae446a0f1ae86d6c016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Axe 01.FBX using Guid(3492ad92fa8dae446a0f1ae86d6c016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e62037869e4d8aa71c12a3b270090df') in 0.037231 seconds
+  Import took 0.041973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Arc 01 Purple.FBX
+  artifactKey: Guid(f7003708f68432b4c91a5d537f6537de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Arc 01 Purple.FBX using Guid(f7003708f68432b4c91a5d537f6537de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a83422c832f8cb1301674c851326ab2') in 0.038775 seconds
+  Import took 0.050000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Arc 01 Blue.FBX
+  artifactKey: Guid(aea2d67aaa7296748b23d560ea3a7d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Arc 01 Blue.FBX using Guid(aea2d67aaa7296748b23d560ea3a7d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f958f39f0dc94a377b25e949de8e5e') in 0.031308 seconds
+  Import took 0.039034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.198768 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c290dcd1e6068cd708cc055f8cf6ac') in 0.271856 seconds
+  Import took 0.297041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.920777 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx
+  artifactKey: Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx using Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8404c0391dd0a0bae654e7ae487169d4') in 0.149847 seconds
+  Import took 0.159138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.753183 seconds.
+  path: Assets/Audio/Grunting-from-Being-Hit-A10-www.fesliyanstudios.com.mp3
+  artifactKey: Guid(a8a0f3f077202e440b64645fcf55eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Grunting-from-Being-Hit-A10-www.fesliyanstudios.com.mp3 using Guid(a8a0f3f077202e440b64645fcf55eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4c0939f5d951796e04a9cc29e2bb50') in 0.038650 seconds
+  Import took 0.041788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.347321 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx
+  artifactKey: Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx using Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c7eb69487d8ed8b187f8e6eb9594eb') in 0.062761 seconds
+  Import took 0.069427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.082756 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx
+  artifactKey: Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx using Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc4a669735c0c40df3209121bfc5fa1') in 0.058061 seconds
+  Import took 0.062004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx
+  artifactKey: Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx using Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc4a669735c0c40df3209121bfc5fa1') in 0.039649 seconds
+  Import took 0.045164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.743764 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx
+  artifactKey: Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx using Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c182d230caa84eb73fd32ea30e343ca7') in 0.044581 seconds
+  Import took 0.048365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.734267 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx
+  artifactKey: Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx using Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07423c2ab208a52797c47721316fcd5c') in 0.056187 seconds
+  Import took 0.061275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.182345 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx
+  artifactKey: Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001@Running.fbx using Guid(6236f7322cfbd1b468ae4d12d7abbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7bfec47ea6cde48e90225ec609965b') in 0.049583 seconds
+  Import took 0.053612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.988372 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX
+  artifactKey: Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/FBX/Male01 C001.FBX using Guid(85b3ec28c435a3546806ce1923177174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37065195c7d855b1a9e1caaa8f8f6090') in 0.045703 seconds
+  Import took 0.050124 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004648 seconds.
+Registered in 0.010340 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.145 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2084.
-Total: 2.251100 ms (FindLiveObjects: 0.183700 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.935200 ms  DeleteObjects: 0.084900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004936 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2087.
-Total: 2.434500 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.130800 ms  DeleteObjects: 0.055700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004351 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2090.
-Total: 3.570900 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.046900 ms MarkObjects: 3.258200 ms  DeleteObjects: 0.097200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003618 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2093.
-Total: 2.308200 ms (FindLiveObjects: 0.209500 ms CreateObjectMapping: 0.066300 ms MarkObjects: 1.905700 ms  DeleteObjects: 0.125600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003500 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.075 seconds
+- Completed reload, in  2.633 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
+System memory in use before: 166.0 MB.
+System memory in use after: 166.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2096.
-Total: 3.033300 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.092800 ms MarkObjects: 2.500100 ms  DeleteObjects: 0.059800 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2081.
+Total: 3.065100 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.072400 ms MarkObjects: 2.772800 ms  DeleteObjects: 0.062000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1027.967680 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Animators/Idle.controller
+  artifactKey: Guid(39543ee041e0d654d8beb56495438bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Animators/Idle.controller using Guid(39543ee041e0d654d8beb56495438bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e3746786bc9d61e4d383c331215ee0') in 0.054536 seconds
+  Import took 0.058311 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003382 seconds.
+Registered in 0.003392 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
+- Completed reload, in  0.839 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.3 MB.
-System memory in use after: 152.3 MB.
+System memory in use before: 166.0 MB.
+System memory in use after: 166.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2099.
-Total: 2.517300 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.060600 ms MarkObjects: 2.095300 ms  DeleteObjects: 0.091700 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 1.920700 ms (FindLiveObjects: 0.159900 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.669200 ms  DeleteObjects: 0.048600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005769 seconds.
+Registered in 0.002924 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
+- Completed reload, in  0.841 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.3 MB.
-System memory in use after: 152.3 MB.
+System memory in use before: 166.0 MB.
+System memory in use after: 166.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2102.
-Total: 2.404600 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.047200 ms MarkObjects: 2.068700 ms  DeleteObjects: 0.108700 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2087.
+Total: 1.771800 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.049500 ms MarkObjects: 1.517900 ms  DeleteObjects: 0.044600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003517 seconds.
+Registered in 0.006036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.0 MB.
+System memory in use after: 166.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2090.
+Total: 1.965600 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.713300 ms  DeleteObjects: 0.047900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002962 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
+- Completed reload, in  0.861 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.3 MB.
-System memory in use after: 152.3 MB.
+System memory in use before: 166.0 MB.
+System memory in use after: 166.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2093.
+Total: 1.928200 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.686100 ms  DeleteObjects: 0.045500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.0 MB.
+System memory in use after: 166.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 3.086800 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.052000 ms MarkObjects: 2.769200 ms  DeleteObjects: 0.055200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 553.207895 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Animators/Idle.controller
+  artifactKey: Guid(39543ee041e0d654d8beb56495438bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Animators/Idle.controller using Guid(39543ee041e0d654d8beb56495438bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c6a890856d24da98c227bfa2f3b51d') in 0.058792 seconds
+  Import took 0.062478 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2099.
+Total: 1.990200 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.746500 ms  DeleteObjects: 0.046200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 1.924600 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.678300 ms  DeleteObjects: 0.046700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.1 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2105.
-Total: 2.206400 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.820700 ms  DeleteObjects: 0.083400 ms)
+Total: 5.277100 ms (FindLiveObjects: 0.391700 ms CreateObjectMapping: 0.065900 ms MarkObjects: 4.272900 ms  DeleteObjects: 0.544900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 1.945300 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.661900 ms  DeleteObjects: 0.045800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 1.981800 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.721700 ms  DeleteObjects: 0.050200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 1.787800 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.547100 ms  DeleteObjects: 0.056900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2118.
+Total: 1.948300 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.056400 ms MarkObjects: 1.592900 ms  DeleteObjects: 0.055200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2121.
+Total: 1.840900 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.561000 ms  DeleteObjects: 0.050300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003100 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 2.195600 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.836800 ms  DeleteObjects: 0.055600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2127.
+Total: 1.893900 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.050900 ms MarkObjects: 1.559400 ms  DeleteObjects: 0.050100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002931 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2130.
+Total: 2.045300 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.793600 ms  DeleteObjects: 0.045600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 1.997200 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.661000 ms  DeleteObjects: 0.054700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 1.850500 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.555200 ms  DeleteObjects: 0.051100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2139.
+Total: 2.014000 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.759700 ms  DeleteObjects: 0.049300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 2.221800 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.903400 ms  DeleteObjects: 0.072100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2145.
+Total: 1.771200 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.501100 ms  DeleteObjects: 0.045800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2148.
+Total: 1.932800 ms (FindLiveObjects: 0.169600 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.670300 ms  DeleteObjects: 0.049100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2222.092674 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/_Ground.mat
+  artifactKey: Guid(b7de702feee82564dba7fafe0caf1041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/_Ground.mat using Guid(b7de702feee82564dba7fafe0caf1041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ac788e0cc01f87668bb52aaef58f24') in 0.724682 seconds
+  Import took 0.728737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle05.mat
+  artifactKey: Guid(2a669e40f3a934b4eb385e10512a3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle05.mat using Guid(2a669e40f3a934b4eb385e10512a3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39fada82c10d2d69ba2357a6514a97e') in 0.032144 seconds
+  Import took 0.034627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Alien 01 Feet.mat
+  artifactKey: Guid(5d95a9b1a94a1414ea77dc1d6255ea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Alien 01 Feet.mat using Guid(5d95a9b1a94a1414ea77dc1d6255ea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb151350ea78e8ad44598a970b18aea') in 0.032917 seconds
+  Import took 0.037057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Alien 02 Feet.mat
+  artifactKey: Guid(2813bae7f0693c143bbd97dd07f4b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Alien 02 Feet.mat using Guid(2813bae7f0693c143bbd97dd07f4b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aace875b1e3dd82c3f5f65e86a359003') in 0.021143 seconds
+  Import took 0.024568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Box 01.mat
+  artifactKey: Guid(274da644a5c05644a86122d7d77b880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Box 01.mat using Guid(274da644a5c05644a86122d7d77b880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae356bd646a81dfc7473ac5563e6a450') in 0.020771 seconds
+  Import took 0.026177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/Circle02_AddScroll_Mobile.mat
+  artifactKey: Guid(637f6cefbdd03d94caa3d42cd0adf1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/Circle02_AddScroll_Mobile.mat using Guid(637f6cefbdd03d94caa3d42cd0adf1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac124ad92b0374475149840d71a6e0d') in 0.648594 seconds
+  Import took 0.651545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle13.mat
+  artifactKey: Guid(eb5dd8627ed152f458c0b27f783a189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle13.mat using Guid(eb5dd8627ed152f458c0b27f783a189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8875421210daf9da3f3eb65795a867d') in 0.032733 seconds
+  Import took 0.037096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle23.mat
+  artifactKey: Guid(57e740e8aaa0eb94388e5b6b9a8bd06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle23.mat using Guid(57e740e8aaa0eb94388e5b6b9a8bd06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d008a8966ceb43e9f17d1d18bbf655b') in 0.033425 seconds
+  Import took 0.037599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circle02_AddScroll.mat
+  artifactKey: Guid(d3f371e728489444fa6f3be3cb23af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circle02_AddScroll.mat using Guid(d3f371e728489444fa6f3be3cb23af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc88477037a592f1b79d34c47006ca5') in 0.044831 seconds
+  Import took 0.049583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle23_AB.mat
+  artifactKey: Guid(3089f1e46048b154ca81377867774a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle23_AB.mat using Guid(3089f1e46048b154ca81377867774a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18969312a954b1f6834a7a4385ca7402') in 0.028716 seconds
+  Import took 0.034434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/_Sphere.mat
+  artifactKey: Guid(cc0a529edcd4b1c4691c9bf6d2327d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/_Sphere.mat using Guid(cc0a529edcd4b1c4691c9bf6d2327d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dbf0c10116e82478ed25784aa4b997') in 0.022141 seconds
+  Import took 0.027772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/BeamDark.mat
+  artifactKey: Guid(9841fc1ca9e9cbe4d8de3b2f1381ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/BeamDark.mat using Guid(9841fc1ca9e9cbe4d8de3b2f1381ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07264a6dbf3b3a28bcb85f89ce9b5bc') in 0.047864 seconds
+  Import took 0.051958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Alien 01 Hands.mat
+  artifactKey: Guid(a8ff2ba02e0e54847aaff62b81eb12ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Alien 01 Hands.mat using Guid(a8ff2ba02e0e54847aaff62b81eb12ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3312395dd9a8428f4553c0bb832184a') in 0.024818 seconds
+  Import took 0.028593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/BeamDark_ES1.mat
+  artifactKey: Guid(ceb8af353c0fc5b48aa6fc7112579bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/BeamDark_ES1.mat using Guid(ceb8af353c0fc5b48aa6fc7112579bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eacc8cfe0e50d03683227b20fa6bbbe') in 0.068908 seconds
+  Import took 0.072795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Blue.mat
+  artifactKey: Guid(056b8378eaa9abc4099799b460ca1f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Blue.mat using Guid(056b8378eaa9abc4099799b460ca1f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fbcd38b7fde5d140683ac85752760b') in 0.020614 seconds
+  Import took 0.024388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle04.mat
+  artifactKey: Guid(3cee62fa72b328f4fb61937982399fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle04.mat using Guid(3cee62fa72b328f4fb61937982399fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a389b938b72e68aa44c29e40f58abf') in 0.034937 seconds
+  Import took 0.038641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle16.mat
+  artifactKey: Guid(8579d730c77087c4ebdaec1e109d9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle16.mat using Guid(8579d730c77087c4ebdaec1e109d9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8743e77b2a9e59eecfbc06f3c932f2e') in 0.051438 seconds
+  Import took 0.055683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle06.mat
+  artifactKey: Guid(8238263b2c63d5c40a3740e82364d26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle06.mat using Guid(8238263b2c63d5c40a3740e82364d26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ddae8bb173db38487ab6a63498b180') in 0.037849 seconds
+  Import took 0.041901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle02.mat
+  artifactKey: Guid(6a9742354a98dd4489db628018520e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle02.mat using Guid(6a9742354a98dd4489db628018520e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7793ed9720d8cb77ae3ee5f4f8ae07') in 0.028576 seconds
+  Import took 0.031868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle06_AddScroll.mat
+  artifactKey: Guid(f6bce9def9ca8bd45866fcc262772e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle06_AddScroll.mat using Guid(f6bce9def9ca8bd45866fcc262772e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f5349be4b618e41391392b1d0aad21') in 0.030204 seconds
+  Import took 0.033291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle08.mat
+  artifactKey: Guid(5a22f2836b1198c45aef4c942f8d02b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle08.mat using Guid(5a22f2836b1198c45aef4c942f8d02b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09cf03ae72e98651ac4528396238916') in 0.028626 seconds
+  Import took 0.032216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle03.mat
+  artifactKey: Guid(fc17af5cc7aa3f94aa78263735b36bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle03.mat using Guid(fc17af5cc7aa3f94aa78263735b36bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9cb517048ec5e05bc20133dba9d9e6') in 0.030779 seconds
+  Import took 0.033934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle22.mat
+  artifactKey: Guid(bafbeb2f4c31fb447b975692618bade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle22.mat using Guid(bafbeb2f4c31fb447b975692618bade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba90d4c6099f7df75a6943db391a4244') in 0.029992 seconds
+  Import took 0.033302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle01_AB.mat
+  artifactKey: Guid(1114298c60666f844ad704a1021d4d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle01_AB.mat using Guid(1114298c60666f844ad704a1021d4d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85097f63dad4e4a8cbdb57bbfd1ef54') in 0.029965 seconds
+  Import took 0.033558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle14.mat
+  artifactKey: Guid(d58d9c307ac72394da918daface504fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle14.mat using Guid(d58d9c307ac72394da918daface504fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fcd2511baa0a80063e6a0716eb285f') in 0.049054 seconds
+  Import took 0.053955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle24.mat
+  artifactKey: Guid(330b9df6dafadc64e828866d24ed377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle24.mat using Guid(330b9df6dafadc64e828866d24ed377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487474b98aeec68652d1bb201e928730') in 0.030900 seconds
+  Import took 0.034576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle12.mat
+  artifactKey: Guid(79fdcf585b3c41d41a912e106120e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle12.mat using Guid(79fdcf585b3c41d41a912e106120e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9387c31c7ff83cef74f35fbde03621e9') in 0.026247 seconds
+  Import took 0.030062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle01.mat
+  artifactKey: Guid(df5a7485b63949240ac801966885b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle01.mat using Guid(df5a7485b63949240ac801966885b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0ff1e4d9051576d347b1999f182fde') in 0.021618 seconds
+  Import took 0.026056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle07.mat
+  artifactKey: Guid(572e5f1f8fff44448aabdb7b0f440d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle07.mat using Guid(572e5f1f8fff44448aabdb7b0f440d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9051f35cd99012c359948ce2a1eb4c0b') in 0.051401 seconds
+  Import took 0.054774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle15.mat
+  artifactKey: Guid(005554c402a17824d97509e4b034d8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle15.mat using Guid(005554c402a17824d97509e4b034d8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c698b1f0cb2277c68f4d64dda54fe6') in 0.028898 seconds
+  Import took 0.032244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle06_MobABScroll.mat
+  artifactKey: Guid(ed0bc1c294dec614c92a7c8aba78d415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle06_MobABScroll.mat using Guid(ed0bc1c294dec614c92a7c8aba78d415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bdf0f5a609f66ae8f1a16a9f87bb85') in 0.044869 seconds
+  Import took 0.048096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle07_Scroll.mat
+  artifactKey: Guid(b2651588247da884e9636c8657a9f88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle07_Scroll.mat using Guid(b2651588247da884e9636c8657a9f88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f0a0db8830d15a108c8f49a4a89e64') in 0.026337 seconds
+  Import took 0.029560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle20.mat
+  artifactKey: Guid(9c9b434587318a84b80521a3a294bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle20.mat using Guid(9c9b434587318a84b80521a3a294bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d8e7547bc9d9a830ba60130b3dce0') in 0.052658 seconds
+  Import took 0.056150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle19.mat
+  artifactKey: Guid(87549d00cd0607c4298867cded2ca584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle19.mat using Guid(87549d00cd0607c4298867cded2ca584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9f99e652b6e7a7c3708f97d723bce6') in 0.046164 seconds
+  Import took 0.049863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle25.mat
+  artifactKey: Guid(00c1fd01098cb3e4c85396566b82fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle25.mat using Guid(00c1fd01098cb3e4c85396566b82fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef078362ed63fe149766905e22e2072b') in 0.029633 seconds
+  Import took 0.034086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Alien 02 Top.mat
+  artifactKey: Guid(60c2592f71354e944b94515aa32c5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Alien 02 Top.mat using Guid(60c2592f71354e944b94515aa32c5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808f222f290d35f58c6a478ae788b0c8') in 0.021217 seconds
+  Import took 0.024857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle17.mat
+  artifactKey: Guid(deed58d612392fd45bdf89d6426e47dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle17.mat using Guid(deed58d612392fd45bdf89d6426e47dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554f7cd521c275c82c98dcc9fe21af13') in 0.028645 seconds
+  Import took 0.032191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle06_ABScroll.mat
+  artifactKey: Guid(acc3d932dbb47fa47844346edf2191ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle06_ABScroll.mat using Guid(acc3d932dbb47fa47844346edf2191ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b2087d6d3da58209bb907b88d55b1b') in 0.033061 seconds
+  Import took 0.037219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle17_MobAddScroll.mat
+  artifactKey: Guid(4d0b16f2c98109b4fbe331b262937016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle17_MobAddScroll.mat using Guid(4d0b16f2c98109b4fbe331b262937016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d26001fe29934500dd68b41b7031850') in 0.068506 seconds
+  Import took 0.071587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Alien 01 Top.mat
+  artifactKey: Guid(71174cff142a5db4595172319df2ec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Alien 01 Top.mat using Guid(71174cff142a5db4595172319df2ec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ae779729ab55edabfc0dd2ce140725') in 0.019938 seconds
+  Import took 0.023151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Alien 02 Hands.mat
+  artifactKey: Guid(44a319f132dbe854ea1e57d88db439a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Alien 02 Hands.mat using Guid(44a319f132dbe854ea1e57d88db439a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bc2c8885a1ffbef820136d030ba47a') in 0.019691 seconds
+  Import took 0.022868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle10.mat
+  artifactKey: Guid(78a754414edb898448a7473535c15f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle10.mat using Guid(78a754414edb898448a7473535c15f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423543f44df0f495d7f505fb0cbaab66') in 0.030766 seconds
+  Import took 0.036138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle18_AB.mat
+  artifactKey: Guid(c22451d7e8cca454e946f6e3423d7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle18_AB.mat using Guid(c22451d7e8cca454e946f6e3423d7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dec8f32b8c5c678e5fef163a292ef66') in 0.021969 seconds
+  Import took 0.025418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/CircleHalf01.mat
+  artifactKey: Guid(45a2feeda72a4ee41a266cf2ed679afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/CircleHalf01.mat using Guid(45a2feeda72a4ee41a266cf2ed679afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0537e16e610341fbb4a61f302af5792') in 0.029467 seconds
+  Import took 0.032604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle06_MobAddScroll.mat
+  artifactKey: Guid(bc4d0350338b9cc41b2ca5705bf024a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle06_MobAddScroll.mat using Guid(bc4d0350338b9cc41b2ca5705bf024a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fb7d55a375157aff440de376ce852c') in 0.030796 seconds
+  Import took 0.033840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle09.mat
+  artifactKey: Guid(e32a5131d9ae45945b4a5426681688fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle09.mat using Guid(e32a5131d9ae45945b4a5426681688fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0f6919c37d4d48bc74c8b7f71966a5') in 0.029305 seconds
+  Import took 0.032496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle21.mat
+  artifactKey: Guid(557298aff3172e74991157c46814120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle21.mat using Guid(557298aff3172e74991157c46814120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89855e09a7aa596be8055fd73583f3d') in 0.037499 seconds
+  Import took 0.040489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle11.mat
+  artifactKey: Guid(64f2dcbe991d4e041b1bb075e39a0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle11.mat using Guid(64f2dcbe991d4e041b1bb075e39a0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4bbfe9427d94a436109f52aa0bdfff') in 0.029108 seconds
+  Import took 0.031941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle07_MobAddScroll.mat
+  artifactKey: Guid(6e0c97981be5f53478e8c34efb406739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Mobile/Circle07_MobAddScroll.mat using Guid(6e0c97981be5f53478e8c34efb406739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d99772d4a9f9c976d417d7a41bd202') in 0.027685 seconds
+  Import took 0.031357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/CircleRed01.mat
+  artifactKey: Guid(9494a8ba88181524987b2c5fa6a9fb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/CircleRed01.mat using Guid(9494a8ba88181524987b2c5fa6a9fb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8eb3fea9b11472975a763c64222331') in 0.035383 seconds
+  Import took 0.038811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle18.mat
+  artifactKey: Guid(d6b556d8a368d624b8b6166b5fca3617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Circles/Circle18.mat using Guid(d6b556d8a368d624b8b6166b5fca3617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b270b0b0319213734ff122d23a1a3781') in 0.022718 seconds
+  Import took 0.026101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.721664 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Colour Map 01.mat
+  artifactKey: Guid(91f649da09bc2a44c8d4ce8fdae3de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Colour Map 01.mat using Guid(91f649da09bc2a44c8d4ce8fdae3de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16937507a2102ec7a5b733462a8612a8') in 0.018197 seconds
+  Import took 0.021868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C002A.mat
+  artifactKey: Guid(0f2c4dfefa0a30e429fe013bd4723388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C002A.mat using Guid(0f2c4dfefa0a30e429fe013bd4723388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6d9285e4a257809640d3165bced209') in 0.032437 seconds
+  Import took 0.036273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C001C.mat
+  artifactKey: Guid(9133e8edfe7eeac44ac3e1b53bbe0f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C001C.mat using Guid(9133e8edfe7eeac44ac3e1b53bbe0f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a46dab62a8950ddb02b912d6679792') in 0.036654 seconds
+  Import took 0.042085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Eye Blue.mat
+  artifactKey: Guid(011d5f7e3589f7444b3033040dbb1b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Eye Blue.mat using Guid(011d5f7e3589f7444b3033040dbb1b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d0b7275c7a4aa16e51897ec0a07599') in 0.024488 seconds
+  Import took 0.031249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Demo Ground 02.mat
+  artifactKey: Guid(7c1c28bfc7dc7b744a315a68cc25beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Demo Ground 02.mat using Guid(7c1c28bfc7dc7b744a315a68cc25beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6c6f26f77b4fd68c3e8a0c36364db8') in 0.025248 seconds
+  Import took 0.030905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C001B.mat
+  artifactKey: Guid(4d87a42a0302f99479c157095a6124b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C001B.mat using Guid(4d87a42a0302f99479c157095a6124b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7b59e80a9c18c45788c6b81b3f8d5b') in 0.030534 seconds
+  Import took 0.034380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Eye Red.mat
+  artifactKey: Guid(61c64f490ccf9574ebfdc15c9efe9832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Eye Red.mat using Guid(61c64f490ccf9574ebfdc15c9efe9832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4915115f791b20b6fdbdc729b38cf8') in 0.020301 seconds
+  Import took 0.023632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Models/Drone/Materials/Drone.mat
+  artifactKey: Guid(2954963d08a0b044e8f84eece7126e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Drone/Materials/Drone.mat using Guid(2954963d08a0b044e8f84eece7126e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b18699263430cd27cd2df1ea794b4b') in 0.358830 seconds
+  Import took 0.362055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C003A.mat
+  artifactKey: Guid(06d6a693ded52c246a95b5fd9b0d59ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C003A.mat using Guid(06d6a693ded52c246a95b5fd9b0d59ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e8c4e7f0454c55d7092ea54e6aef6d') in 0.034665 seconds
+  Import took 0.038333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Belt.mat
+  artifactKey: Guid(338381b6b904f9f4385d2a7fb1e5f73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Belt.mat using Guid(338381b6b904f9f4385d2a7fb1e5f73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a32e21cd8b2e06fbb22321968184a5') in 0.037954 seconds
+  Import took 0.042146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C002B.mat
+  artifactKey: Guid(5772acb60ef182547bbd58bcd6b23797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C002B.mat using Guid(5772acb60ef182547bbd58bcd6b23797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe7cba3acf9fe5d2446d015730227bf') in 0.034607 seconds
+  Import took 0.040157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Top.mat
+  artifactKey: Guid(61bfc936d06269742b3a0c366d1b609a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Top.mat using Guid(61bfc936d06269742b3a0c366d1b609a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6be5768564a3efc5cb779effe9d3cf') in 0.034601 seconds
+  Import took 0.039770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/Drone/Materials/Drone_Albedo.mat
+  artifactKey: Guid(c7774e754b9fa164686cc55e3daba714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Drone/Materials/Drone_Albedo.mat using Guid(c7774e754b9fa164686cc55e3daba714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5639285dddcb9f8d24d459d083e16b6a') in 0.048007 seconds
+  Import took 0.052625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Face DIY.mat
+  artifactKey: Guid(1e22dfae1efe0d24b98946ec682e669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Face DIY.mat using Guid(1e22dfae1efe0d24b98946ec682e669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a364909c2823638bc0528999b1a5006d') in 0.294253 seconds
+  Import took 0.301598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C002C.mat
+  artifactKey: Guid(e1c2d1d9c40f99d49a02405236d1eb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C002C.mat using Guid(e1c2d1d9c40f99d49a02405236d1eb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80b8786fd0fe453242b18d2d2a297e2') in 0.026761 seconds
+  Import took 0.030548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Bottom.mat
+  artifactKey: Guid(b13781262da53b2449a4c90783eb5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Bottom.mat using Guid(b13781262da53b2449a4c90783eb5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daabf447f28012a6db93398bbc94d14') in 0.028282 seconds
+  Import took 0.032796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Belt.mat
+  artifactKey: Guid(27dd77c43191c2249835968da3880f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Belt.mat using Guid(27dd77c43191c2249835968da3880f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84ef45830bea749ffd3a1e4c071adb7') in 0.028190 seconds
+  Import took 0.033152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Demo Ground 01.mat
+  artifactKey: Guid(277154c224bf0b441b0379cd08020b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Demo Ground 01.mat using Guid(277154c224bf0b441b0379cd08020b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d934c11e7db4bd371e5c3bf740898') in 0.022287 seconds
+  Import took 0.027490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Bottom.mat
+  artifactKey: Guid(3590d1ae88ff5fb4893511c425556d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Bottom.mat using Guid(3590d1ae88ff5fb4893511c425556d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc05027fae68c2dcade4f6c429d1343') in 0.026699 seconds
+  Import took 0.031564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C003C.mat
+  artifactKey: Guid(673f6984b7f25df4eb429f6ad3ab8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C003C.mat using Guid(673f6984b7f25df4eb429f6ad3ab8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ace80cbd44af1248f2b7760b013175') in 0.036898 seconds
+  Import took 0.040719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C003B.mat
+  artifactKey: Guid(962e2fba4c7c3d74cbe5bff2f307abc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C003B.mat using Guid(962e2fba4c7c3d74cbe5bff2f307abc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b74a9ad8a78e6436818b4848ea35b87') in 0.034442 seconds
+  Import took 0.038947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Boots.mat
+  artifactKey: Guid(6da328aef4ac58c4a868ce4ad6019b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Boots.mat using Guid(6da328aef4ac58c4a868ce4ad6019b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271a04ccffc0f6f378f9214b71d1623b') in 0.028202 seconds
+  Import took 0.032529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Feet.mat
+  artifactKey: Guid(81fbdf8bbb93b6d479449567715af7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Feet.mat using Guid(81fbdf8bbb93b6d479449567715af7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1aa77b161e33df7aabad77febcb9a2') in 0.025886 seconds
+  Import took 0.030288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Hands.mat
+  artifactKey: Guid(dd5835781b878464482ca88803310c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM001 Hands.mat using Guid(dd5835781b878464482ca88803310c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723fb56a0a1e6ed5c1d2400e78ab4e55') in 0.033184 seconds
+  Import took 0.037320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C001A.mat
+  artifactKey: Guid(301d75e71f88e724a80f7bd1343f5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Bl C001A.mat using Guid(301d75e71f88e724a80f7bd1343f5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78da61115d523766764537d67846d297') in 0.030536 seconds
+  Import took 0.034632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.435149 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Buckle.mat
+  artifactKey: Guid(4b1164dff0fc05143b4dfda21c154f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Buckle.mat using Guid(4b1164dff0fc05143b4dfda21c154f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc2d1d62a8cb9e2344838194fdb6b14') in 0.019074 seconds
+  Import took 0.023165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Gloves.mat
+  artifactKey: Guid(f6a8298695ae7914e8f4f554f0e66685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Gloves.mat using Guid(f6a8298695ae7914e8f4f554f0e66685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3573ff17587140c2e72a61c7ec28cc01') in 0.018122 seconds
+  Import took 0.021386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C002C.mat
+  artifactKey: Guid(9d8b0c14076d7e5429456bf64f95c57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C002C.mat using Guid(9d8b0c14076d7e5429456bf64f95c57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565906852b0fe59a5a516310dc79e2a8') in 0.027025 seconds
+  Import took 0.030984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C003B.mat
+  artifactKey: Guid(4d10a7d1e29ad2147a50ed507a68058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C003B.mat using Guid(4d10a7d1e29ad2147a50ed507a68058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28415f238f30cbde3452f204d45f0e46') in 0.026113 seconds
+  Import took 0.030067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C001A.mat
+  artifactKey: Guid(ed5e60093deafab40a93a4e2d6aae7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C001A.mat using Guid(ed5e60093deafab40a93a4e2d6aae7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5515a3008745ca95939d8e947613edb') in 0.028033 seconds
+  Import took 0.031059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C003C.mat
+  artifactKey: Guid(fd6c9003505d9d64193882c953648f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C003C.mat using Guid(fd6c9003505d9d64193882c953648f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236eb6d079c38cc5d71433e264ade908') in 0.028130 seconds
+  Import took 0.032426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Top.mat
+  artifactKey: Guid(04ef3386f17389d41b23f7853558e493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Top.mat using Guid(04ef3386f17389d41b23f7853558e493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62c8da507b91233ed3743e94cef1a89') in 0.021932 seconds
+  Import took 0.025357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C002B.mat
+  artifactKey: Guid(15de978393d59a54dbb28f6f99a4a243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C002B.mat using Guid(15de978393d59a54dbb28f6f99a4a243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b62ee3641a386e4973b9d17b9778ac7') in 0.029218 seconds
+  Import took 0.032518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C001B.mat
+  artifactKey: Guid(597909d9b82c04b488b5c75bd23716bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C001B.mat using Guid(597909d9b82c04b488b5c75bd23716bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc4c944b95ab93a6e9d9f6237c980dd') in 0.026072 seconds
+  Import took 0.029371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Skin.mat
+  artifactKey: Guid(23f91dbcec2eaf84fa2515ce73de1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 MM002 Skin.mat using Guid(23f91dbcec2eaf84fa2515ce73de1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea37a5b61c1a96f9a0ee22851fde2cf') in 0.021735 seconds
+  Import took 0.025113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C003A.mat
+  artifactKey: Guid(5e54b44253305ef4797b4dbbdc637513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C003A.mat using Guid(5e54b44253305ef4797b4dbbdc637513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d440a00c5f2e778bac9935b88af5ab3') in 0.033504 seconds
+  Import took 0.037451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C001C.mat
+  artifactKey: Guid(4e829ddb1e920654caf063b5ce5a2c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C001C.mat using Guid(4e829ddb1e920654caf063b5ce5a2c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe6ce7952e4a4f90de8b63a06a590b9') in 0.024555 seconds
+  Import took 0.028944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C002A.mat
+  artifactKey: Guid(25b5b69990340db43b8bb4bb444e74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/Female01 Wh C002A.mat using Guid(25b5b69990340db43b8bb4bb444e74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd3b1adcaac7a011c220539eab3e348') in 0.027658 seconds
+  Import took 0.031621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.001720 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Fire_A.mat
+  artifactKey: Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Fire_A.mat using Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92971bd744bb200d79c026b8155c9a5b') in 0.025224 seconds
+  Import took 0.028192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/FireLine01_MobAdd_3x3.mat
+  artifactKey: Guid(6538ca98cf03d3b4d9f1d97721fcdf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/FireLine01_MobAdd_3x3.mat using Guid(6538ca98cf03d3b4d9f1d97721fcdf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e2436a3a269fb7877f7b6eaab89f87') in 0.034089 seconds
+  Import took 0.036822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Flame_ABScroll.mat
+  artifactKey: Guid(cddf8a0688a3267448783169bf73c1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Flame_ABScroll.mat using Guid(cddf8a0688a3267448783169bf73c1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c27aced5251e0e9d0fb39afa3a286dd') in 0.040540 seconds
+  Import took 0.043950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/TextMesh Pro/Fonts/Staatliches-Regular.ttf
+  artifactKey: Guid(b6f84ede8e0d10a4da8000bee168889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Staatliches-Regular.ttf using Guid(b6f84ede8e0d10a4da8000bee168889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663ae1a305d148398c889fd4e3f1e622') in 0.042540 seconds
+  Import took 0.046324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/Flame_ABScroll_Mobile.mat
+  artifactKey: Guid(7a99409dca4c8c34d96a864bf40d682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/Flame_ABScroll_Mobile.mat using Guid(7a99409dca4c8c34d96a864bf40d682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f6257b57841e36975712f44324c030') in 0.025247 seconds
+  Import took 0.028000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/FireLine01_MobAB_3x3.mat
+  artifactKey: Guid(321776322a3eac646b8d308b49b50a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/FireLine01_MobAB_3x3.mat using Guid(321776322a3eac646b8d308b49b50a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9d39a1b775f162917064c4a1981575') in 0.022222 seconds
+  Import took 0.025664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/FireLine01_Add_3x3.mat
+  artifactKey: Guid(e055485bf99a7874ca86fdc858b76297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/FireLine01_Add_3x3.mat using Guid(e055485bf99a7874ca86fdc858b76297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b707721988d648ac4525eee308287c60') in 0.035583 seconds
+  Import took 0.038410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/FireLine01_AB_3x3.mat
+  artifactKey: Guid(49ceb41e79b7fac4caa2bc9e0908467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/FireLine01_AB_3x3.mat using Guid(49ceb41e79b7fac4caa2bc9e0908467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be74ea976f8a412f7e086a6a557e04df') in 0.027510 seconds
+  Import took 0.030054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Flames01_Add_4x4.mat
+  artifactKey: Guid(a44a1c40d81ab284691c63b83a4fa5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Flames01_Add_4x4.mat using Guid(a44a1c40d81ab284691c63b83a4fa5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931738dc6701332d348e8105f4c42c29') in 0.030169 seconds
+  Import took 0.033601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c5dfb400052acde0cdd7135c8e2d6a') in 0.016322 seconds
+  Import took 0.019663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Cube - Sci Fi Underworld City/Materials/FX Blue.mat
+  artifactKey: Guid(e2dee26c1b13787418e34355a4ff8265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube - Sci Fi Underworld City/Materials/FX Blue.mat using Guid(e2dee26c1b13787418e34355a4ff8265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3ea7fe6d341ef366761bb806d3386a') in 0.024282 seconds
+  Import took 0.027702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/FireParticle_A.mat
+  artifactKey: Guid(abc49fa8b01f5314c880641bc7c5986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/FireParticle_A.mat using Guid(abc49fa8b01f5314c880641bc7c5986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2fef3a19a71a6341222b08c02a8d17') in 0.029165 seconds
+  Import took 0.032517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/Flames01_MobAdd_4x4.mat
+  artifactKey: Guid(dabfdd629a334f34fb77a722c7287a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Mobile/Flames01_MobAdd_4x4.mat using Guid(dabfdd629a334f34fb77a722c7287a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc4ff359d1375efe23e551bd5945947') in 0.031903 seconds
+  Import took 0.034985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.259233 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/Sword01.FBX
+  artifactKey: Guid(8627de3d00497064b9bec6aad3c8c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/Sword01.FBX using Guid(8627de3d00497064b9bec6aad3c8c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41f0e084c1197dd284614a794a93b3c') in 0.053872 seconds
+  Import took 0.057896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.067872 seconds.
+  path: Assets/JMO Assets/WarFX/Mesh/CirclePlane12v.FBX
+  artifactKey: Guid(3d152f67f64ca4e4a8b6fd7697f7bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Mesh/CirclePlane12v.FBX using Guid(3d152f67f64ca4e4a8b6fd7697f7bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e78695ce6fe48c6f389593e27f91c0') in 0.020889 seconds
+  Import took 0.024690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/JMO Assets/WarFX/Mesh/Plane1x1.FBX
+  artifactKey: Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Mesh/Plane1x1.FBX using Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2a149a3bc6af193160e90abea652dc') in 0.017745 seconds
+  Import took 0.020371 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 2.842300 ms (FindLiveObjects: 0.183000 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.541800 ms  DeleteObjects: 0.072700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2159.
+Total: 2.123400 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.082500 ms MarkObjects: 1.810500 ms  DeleteObjects: 0.046300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2162.
+Total: 2.081000 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.797000 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006042 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.709 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2165.
+Total: 5.546100 ms (FindLiveObjects: 0.605500 ms CreateObjectMapping: 0.079200 ms MarkObjects: 4.776100 ms  DeleteObjects: 0.078700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.832 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2168.
+Total: 4.818200 ms (FindLiveObjects: 0.345900 ms CreateObjectMapping: 0.094300 ms MarkObjects: 4.245000 ms  DeleteObjects: 0.130400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006293 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.610 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2171.
+Total: 4.201000 ms (FindLiveObjects: 0.623400 ms CreateObjectMapping: 0.136800 ms MarkObjects: 3.188200 ms  DeleteObjects: 0.250600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

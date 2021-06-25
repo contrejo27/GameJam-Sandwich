@@ -12,7 +12,6 @@ public class FX_AutoDestruct : MonoBehaviour
 
     void Deactivate()
     {
-        print("deactivateFX");
         gameObject.SetActive(false);
     }
 }

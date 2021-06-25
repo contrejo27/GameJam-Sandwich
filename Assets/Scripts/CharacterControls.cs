@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,8 @@ public class CharacterControls : MonoBehaviour
     public float jumpHeight = 100;
     public float doubleJumpHeight = 100;
     public float speedClamp = 6f;
+    Vector3 OGRotation;
+
 
     //health
     public int maxHealth = 100;
@@ -33,6 +36,8 @@ public class CharacterControls : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         GameOver.SetActive(false);
+
+         OGRotation = transform.rotation.eulerAngles;
     }
 
 
@@ -79,6 +84,7 @@ public class CharacterControls : MonoBehaviour
         }
 
 
+
         if (Input.GetAxisRaw("Horizontal") == 0)
         {
             GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x * .8f, GetComponent<Rigidbody>().velocity.y, GetComponent<Rigidbody>().velocity.z);
@@ -97,6 +103,9 @@ public class CharacterControls : MonoBehaviour
         }
 
     }
+
+
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground")
