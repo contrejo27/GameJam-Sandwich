@@ -71,6 +71,7 @@ public class CharacterControls : MonoBehaviour
             Time.timeScale = 0f;
         }
 
+        CharacterAnimator.SetFloat("Speed", GetComponent<Rigidbody>().velocity.x / speedClamp);
 
         if (GetComponent<Rigidbody>().velocity.x < speedClamp && GetComponent<Rigidbody>().velocity.x > -speedClamp)
         {
@@ -80,7 +81,7 @@ public class CharacterControls : MonoBehaviour
 
         if (Input.GetAxisRaw("Horizontal") == 0)
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x *.8f, GetComponent<Rigidbody>().velocity.y, GetComponent<Rigidbody>().velocity.z );
+            GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x * .8f, GetComponent<Rigidbody>().velocity.y, GetComponent<Rigidbody>().velocity.z);
         }
 
         if (Input.GetAxisRaw("Horizontal") != 0)
