@@ -2111,9 +2111,65 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1714681037216752, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: ColorModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.4233029
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.824
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.21299617
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 63800
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.b
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 0.66578186
+      objectReference: {fileID: 0}
+    - target: {fileID: 290252125674960671, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 492550400344226273, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 492550400344226273, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.137
+      objectReference: {fileID: 0}
+    - target: {fileID: 492550400344226273, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 1048142241595266614, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
       propertyPath: m_Name
       value: mainChar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026058836395911458, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: m_Intensity
+      value: 8.18
       objectReference: {fileID: 0}
     - target: {fileID: 3166881953350919816, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
       propertyPath: target
@@ -2161,6 +2217,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732238266187000474, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747810645507463638, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8924022336270207171, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
@@ -16182,6 +16242,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1048142241595266614, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
   m_PrefabInstance: {fileID: 91396114}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &893975359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893975358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38e96f2801797e4eaa82de0a208ccef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainChar: {fileID: 1063456210}
 --- !u!4 &893975365 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4732238266187000474, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
@@ -19016,6 +19089,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4281312096644984, guid: 3711dcae88093d141a2e308a3a81674c, type: 3}
   m_PrefabInstance: {fileID: 1055960179}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1063456210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8747810645507463638, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
+  m_PrefabInstance: {fileID: 91396114}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1070431422
 PrefabInstance:

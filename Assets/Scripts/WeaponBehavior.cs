@@ -30,6 +30,7 @@ public class WeaponBehavior : MonoBehaviour
             { 
                 if(currentGunType == GunType.Shotgun)
                 {
+                    GetComponent<Animator>().Play("WeaponRecoil");
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
                     Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);

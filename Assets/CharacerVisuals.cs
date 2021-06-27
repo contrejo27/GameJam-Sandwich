@@ -1,19 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class TempText : MonoBehaviour
+public class CharacerVisuals : MonoBehaviour
 {
+    public GameObject mainChar;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Invoke("SpawnChar",.5f);
     }
 
+    void SpawnChar()
+    {
+        mainChar.SetActive(true);
+    }
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.FindObjectOfType<WeaponBehavior>() != null) GetComponent<TMPro.TextMeshProUGUI>().text = GameObject.FindObjectOfType<WeaponBehavior>().ammo.ToString();
+        
     }
 }

@@ -10,7 +10,8 @@ public class CharacterControls : MonoBehaviour
     public float jumpHeight = 100;
     public float doubleJumpHeight = 100;
     public float speedClamp = 6f;
-    Vector3 OGRotation;
+    Vector3 faceRight;
+    Vector3 faceLeft;
 
 
     //health
@@ -25,6 +26,7 @@ public class CharacterControls : MonoBehaviour
     //FX
     public GameObject HitPlayer;
     public GameObject doubleJumpVFX;
+    public GameObject AmmoPowerUpVFX;
 
     //internal
     private bool isGrounded = true;
@@ -37,7 +39,11 @@ public class CharacterControls : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
         GameOver.SetActive(false);
 
-         OGRotation = transform.rotation.eulerAngles;
+        faceRight = transform.rotation.eulerAngles;
+        faceLeft = new Vector3(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + 180, transform.rotation.eulerAngles.z);
+
+        Cursor.visible = false;
+
     }
 
 
@@ -69,13 +75,15 @@ public class CharacterControls : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
         if (currentHealth <= 0)
         {
+            Cursor.visible = true;
+
             GameOver.SetActive(true);
             Time.timeScale = 0f;
         }
 
+        //controls character running animation speed
         CharacterAnimator.SetFloat("Speed", GetComponent<Rigidbody>().velocity.x / speedClamp);
 
         if (GetComponent<Rigidbody>().velocity.x < speedClamp && GetComponent<Rigidbody>().velocity.x > -speedClamp)
@@ -84,24 +92,27 @@ public class CharacterControls : MonoBehaviour
         }
 
 
+        if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            transform.rotation = Quaternion.Euler(faceLeft);
+        }
+
+        if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            transform.rotation = Quaternion.Euler(faceRight);
+        }
 
         if (Input.GetAxisRaw("Horizontal") == 0)
         {
             GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x * .8f, GetComponent<Rigidbody>().velocity.y, GetComponent<Rigidbody>().velocity.z);
         }
-
-        if (Input.GetAxisRaw("Horizontal") != 0)
-        {
-            CharacterAnimator.ResetTrigger("Idle");
-            CharacterAnimator.SetTrigger("Walk");
-        }
         else
         {
-            CharacterAnimator.ResetTrigger("Walk");
-            CharacterAnimator.SetTrigger("Idle");
-
+            if (isGrounded)
+            {
+                CharacterAnimator.SetTrigger("Walk");
+            }
         }
-
     }
 
 
@@ -112,6 +123,11 @@ public class CharacterControls : MonoBehaviour
         {
             isGrounded = true;
             doubleJump = false;
+            CharacterAnimator.ResetTrigger("Jump");
+            if (Input.GetAxisRaw("Horizontal") == 0)
+            {
+                CharacterAnimator.SetTrigger("Landing");
+            }
         }
 
         if (collision.gameObject.tag == "Enemy")
@@ -131,6 +147,8 @@ public class CharacterControls : MonoBehaviour
         {
             GameObject.FindObjectOfType<WeaponBehavior>().ammo += 10;
             Destroy(other.gameObject);
+            AmmoPowerUpVFX.SetActive(true);
+
         }
         if (other.gameObject.CompareTag("EnemyBullet"))
         {

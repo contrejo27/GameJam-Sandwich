@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7848071311086302066}
   - component: {fileID: 977288574356993733}
   - component: {fileID: 7746644978988552072}
+  - component: {fileID: 1324060175193223638}
   m_Layer: 0
   m_Name: weapon
   m_TagString: Untagged
@@ -111,10 +112,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGunType: 0
-  gunDirection: {x: 0, y: 0, z: 0}
   bulletPrefab: {fileID: 5289715613197317276, guid: a9cce9496c9c7e847a1ae4b65b8eb700, type: 3}
   muzzlePos: {fileID: 6542564872032754872}
   ammo: 10
+--- !u!95 &1324060175193223638
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8139375086946663140}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d65f4f58c48f17e4f873d2bf0131a989, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8192674557302303004
 GameObject:
   m_ObjectHideFlags: 0
