@@ -8,11 +8,12 @@ public class FX_AutoDestruct : MonoBehaviour
 {
     // Start is called before the first frame update
     public bool hasLightingEffects;
+    public float deactivateSpeed = 1;
     public GameObject lightVFX;
 
     void OnEnable()
     {
-        Invoke("Deactivate", 1);
+        Invoke("Deactivate", deactivateSpeed);
     }
 
     void Deactivate()
@@ -20,7 +21,7 @@ public class FX_AutoDestruct : MonoBehaviour
         gameObject.SetActive(false);
     }
 }
-
+/*
 [CustomEditor(typeof(FX_AutoDestruct))]
 public class ScriptEditor : Editor
 {
@@ -34,4 +35,4 @@ public class ScriptEditor : Editor
             myScript.lightVFX = (GameObject)EditorGUILayout.ObjectField("Fire Effect", myScript.lightVFX, typeof(GameObject), true);
 
     }
-}
+}*/

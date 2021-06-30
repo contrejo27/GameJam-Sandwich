@@ -329,10 +329,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2.06
+  m_Radius: 0.89
+  m_Height: 2.24
   m_Direction: 1
-  m_Center: {x: 0, y: 1.09, z: 0}
+  m_Center: {x: 0, y: 1.1, z: 0}
 --- !u!54 &781054663
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -366,6 +366,7 @@ MonoBehaviour:
   enemyHealth: 15
   hitPlayer: {fileID: 100002, guid: 00fedc70b62a31e448e8ccc298257b56, type: 3}
   hitAnimationPosition: {fileID: 6182436834566406208}
+  enemyStartPaused: 0
 --- !u!1 &1375230806503032
 GameObject:
   m_ObjectHideFlags: 0

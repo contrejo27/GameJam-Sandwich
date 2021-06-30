@@ -49,12 +49,24 @@ public class CharacterControls : MonoBehaviour
 
     void Update()
     {
+        print(isGrounded);
+        if (Input.GetKeyDown(KeyCode.S) && !isGrounded)
+        {
+            print("goDown");
+            GetComponent<Rigidbody>().AddForce(Vector3.down * 5, ForceMode.VelocityChange);
+
+        }
+
         if (Input.GetButtonDown("Jump"))
         {
             if (doubleJump)
             {
-
+                GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x, 0, 0);
                 GetComponent<Rigidbody>().AddForce(Vector3.up * doubleJumpHeight, ForceMode.VelocityChange);
+
+                CharacterAnimator.ResetTrigger("Jump");
+                CharacterAnimator.SetTrigger("DoubleJump");
+
                 doubleJump = false;
                 doubleJumpVFX.SetActive(true);
             }
@@ -65,6 +77,8 @@ public class CharacterControls : MonoBehaviour
 
                 CharacterAnimator.ResetTrigger("Walk");
                 CharacterAnimator.ResetTrigger("Idle");
+                CharacterAnimator.ResetTrigger("Landing");
+
                 CharacterAnimator.SetTrigger("Jump");
 
                 GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight, ForceMode.VelocityChange);
@@ -124,6 +138,8 @@ public class CharacterControls : MonoBehaviour
             isGrounded = true;
             doubleJump = false;
             CharacterAnimator.ResetTrigger("Jump");
+            CharacterAnimator.ResetTrigger("DoubleJump");
+
             if (Input.GetAxisRaw("Horizontal") == 0)
             {
                 CharacterAnimator.SetTrigger("Landing");

@@ -22,8 +22,9 @@ public class FollowMouse : MonoBehaviour
         Vector3 mousePos = Input.mousePosition;
 
         target.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, cameraDistance));
+        target.transform.position = new Vector3(target.transform.position.x, target.transform.position.y, 0);
         gunDirection = transform.forward;
-        transform.LookAt(Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, cameraDistance)));
+        transform.LookAt(new Vector3(target.transform.position.x, target.transform.position.y, 0));
 
     }
 }
