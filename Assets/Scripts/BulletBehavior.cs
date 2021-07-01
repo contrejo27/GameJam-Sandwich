@@ -5,6 +5,8 @@ using UnityEngine;
 public class BulletBehavior : MonoBehaviour
 {
     public float bulletSpeed = 100;
+    public GameObject sparkVFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +19,14 @@ public class BulletBehavior : MonoBehaviour
         StartCoroutine("DieAfterSeconds");
     }
 
-    IEnumerator DieAfterSeconds()
+    private void OnTriggerEnter(Collider other)
+    {
+    	if(other.CompareTag("Ground")){
+    			sparkVFX.SetActive(true);
+    	}
+    }
+
+        IEnumerator DieAfterSeconds()
     {
         yield return new WaitForSeconds(1);
         Destroy(gameObject);

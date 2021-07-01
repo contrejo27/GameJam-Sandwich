@@ -44,7 +44,7 @@ public class FlyingEnemy : MonoBehaviour
     }
     IEnumerator ShootAtRandomSeconds()
     {
-        yield return new WaitForSeconds(Random.Range(1,3));
+        yield return new WaitForSeconds(Random.Range(1.5f,3.5f));
         Instantiate(enemyBulletPrefab, BulletSpawn.transform.position, Quaternion.identity);
         StartCoroutine("ShootAtRandomSeconds");
       
@@ -53,8 +53,19 @@ public class FlyingEnemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Bullet")
         {
-            Destroy(gameObject);
-            Instantiate(Explosion, transform.position, Quaternion.identity);
+            GetComponent<Rigidbody>().useGravity = true;
+            GetComponent<Rigidbody>().AddForce((Vector3.up )+(Vector3.right),ForceMode.VelocityChange);
+                        GetComponent<Rigidbody>().angularVelocity += new Vector3 (1.5f,2.5f,1.4f);
+
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+            if(collision.gameObject.tag == "Ground"){
+                Instantiate(Explosion, transform.position, Quaternion.identity);
+                            Destroy(gameObject);
+
+            }
     }
 }
