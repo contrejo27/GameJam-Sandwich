@@ -2409,7 +2409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8747810645507463638, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8924022336270207171, guid: 05a45dc887ae54a4d8f7850981c33573, type: 3}
       propertyPath: GameOver

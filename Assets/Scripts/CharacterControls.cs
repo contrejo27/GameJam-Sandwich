@@ -49,12 +49,9 @@ public class CharacterControls : MonoBehaviour
 
     void Update()
     {
-        print(isGrounded);
         if (Input.GetKeyDown(KeyCode.S) && !isGrounded)
         {
-            print("goDown");
             GetComponent<Rigidbody>().AddForce(Vector3.down * 5, ForceMode.VelocityChange);
-
         }
 
         if (Input.GetButtonDown("Jump"))
@@ -108,11 +105,17 @@ public class CharacterControls : MonoBehaviour
 
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
+            CharacterAnimator.gameObject.transform.localPosition = new Vector3(0,
+                                                                          CharacterAnimator.gameObject.transform.localPosition.y,
+                                                                          CharacterAnimator.gameObject.transform.localPosition.z);
             transform.rotation = Quaternion.Euler(faceLeft);
         }
 
         if (Input.GetAxisRaw("Horizontal") > 0)
         {
+            CharacterAnimator.gameObject.transform.localPosition = new Vector3(0,
+                                                                          CharacterAnimator.gameObject.transform.localPosition.y,
+                                                                          CharacterAnimator.gameObject.transform.localPosition.z);  
             transform.rotation = Quaternion.Euler(faceRight);
         }
 
